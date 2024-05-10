@@ -1,5 +1,4 @@
-﻿using iCantina.views;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -17,7 +16,7 @@ namespace iCantina
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Funcionarios());
+            Application.Run(new Login());
         }
     }
 }
