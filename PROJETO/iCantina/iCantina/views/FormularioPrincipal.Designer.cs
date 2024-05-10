@@ -1,6 +1,6 @@
-﻿namespace iCantina
+﻿namespace iCantina.views
 {
-    partial class Login
+    partial class FormularioPrincipal
     {
         /// <summary>
         /// Required designer variable.
@@ -28,20 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.SuspendLayout();
-            // 
-            // Login
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Name = "Login";
-            this.Text = "Login";
-            this.ResumeLayout(false);
-
+            this.Text = "FormularioPrincipal";
         }
 
         #endregion
     }
 }
-
