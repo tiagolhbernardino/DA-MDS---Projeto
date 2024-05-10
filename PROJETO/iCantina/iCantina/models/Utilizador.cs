@@ -1,5 +1,4 @@
-﻿using iCantina.models.Utilizadores;
-using iCantina.models.Utilizadores.Cliente;
+﻿using iCantina.models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
