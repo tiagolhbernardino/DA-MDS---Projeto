@@ -10,13 +10,11 @@ using System.Windows.Forms;
 
 namespace iCantina.views
 {
-    public partial class FormularioPrincipal : Form
+    public partial class Faturas : Form
     {
-        public FormularioPrincipal()
+        public Faturas()
         {
             InitializeComponent();
         }
-
-        
     }
 }
