@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace iCantina.views
 {
-    public partial class Gest : Form
+    public partial class GestaoCliente : Form
     {
-        public Gest()
+        public GestaoCliente()
         {
             InitializeComponent();
         }

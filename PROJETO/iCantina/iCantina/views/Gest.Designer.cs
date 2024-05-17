@@ -1,6 +1,6 @@
 ﻿namespace iCantina.views
 {
-    partial class Gest
+    partial class GestaoCliente
     {
         /// <summary>
         /// Required designer variable.
@@ -192,7 +192,7 @@
             this.checkBox2.Text = "Aluno";
             this.checkBox2.UseVisualStyleBackColor = true;
             // 
-            // Gest
+            // GestaoCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -214,8 +214,8 @@
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.listBox1);
-            this.Name = "Gest";
-            this.Text = "Saldo";
+            this.Name = "GestaoCliente";
+            this.Text = "Gestão Clientes";
             this.ResumeLayout(false);
             this.PerformLayout();
 
