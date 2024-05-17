@@ -16,7 +16,5 @@ namespace iCantina.views
         {
             InitializeComponent();
         }
-
-        
     }
 }
