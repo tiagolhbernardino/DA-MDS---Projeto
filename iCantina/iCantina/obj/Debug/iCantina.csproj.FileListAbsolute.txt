@@ -1,0 +1,10 @@
+D:\ESTG\DA\DA-MDS---Projeto-main\DA-MDS---Projeto-main\PROJETO\iCantina\iCantina\obj\Debug\iCantina.csproj.AssemblyReference.cache
+D:\ESTG\DA\DA-MDS---Projeto-main\DA-MDS---Projeto-main\PROJETO\iCantina\iCantina\obj\Debug\iCantina.Login.resources
+D:\ESTG\DA\DA-MDS---Projeto-main\DA-MDS---Projeto-main\PROJETO\iCantina\iCantina\obj\Debug\iCantina.Properties.Resources.resources
+D:\ESTG\DA\DA-MDS---Projeto-main\DA-MDS---Projeto-main\PROJETO\iCantina\iCantina\obj\Debug\iCantina.csproj.GenerateResource.cache
+D:\ESTG\DA\DA-MDS---Projeto-main\DA-MDS---Projeto-main\PROJETO\iCantina\iCantina\obj\Debug\iCantina.csproj.CoreCompileInputs.cache
+D:\ESTG\DA\DA-MDS---Projeto-main\DA-MDS---Projeto-main\PROJETO\iCantina\iCantina\bin\Debug\iCantina.exe.config
+D:\ESTG\DA\DA-MDS---Projeto-main\DA-MDS---Projeto-main\PROJETO\iCantina\iCantina\bin\Debug\iCantina.exe
+D:\ESTG\DA\DA-MDS---Projeto-main\DA-MDS---Projeto-main\PROJETO\iCantina\iCantina\bin\Debug\iCantina.pdb
+D:\ESTG\DA\DA-MDS---Projeto-main\DA-MDS---Projeto-main\PROJETO\iCantina\iCantina\obj\Debug\iCantina.exe
+D:\ESTG\DA\DA-MDS---Projeto-main\DA-MDS---Projeto-main\PROJETO\iCantina\iCantina\obj\Debug\iCantina.pdb
