@@ -108,6 +108,12 @@
     <EmbeddedResource Include="views\FormularioPrincipal.resx">
       <DependentUpon>FormularioPrincipal.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="views\Funcionário.resx">
+      <DependentUpon>Funcionário.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\Gest.resx">
+      <DependentUpon>Gest.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

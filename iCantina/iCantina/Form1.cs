@@ -1,4 +1,5 @@
-﻿using System;
+﻿using iCantina.views;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,5 +17,26 @@ namespace iCantina
         {
             InitializeComponent();
         }
+
+        private void Closed_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Close();
+        }
+        private void buttonLogIn_Click(object sender, EventArgs e)
+        {
+            string Username = textBoxUsername.Text;
+            string Password = textBoxPassword.Text;
+
+            if (Username == "admin" && Password == "admin")
+            {
+                FormularioPrincipal principal = new FormularioPrincipal();
+
+                Hide();
+                principal.FormClosed += Closed_FormClosed;
+                principal.ShowDialog();
+            }
+        }
+
+        
     }
 }

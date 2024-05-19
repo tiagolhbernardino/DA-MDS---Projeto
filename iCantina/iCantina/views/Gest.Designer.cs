@@ -215,6 +215,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.listBox1);
             this.Name = "GestaoCliente";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Gestão Clientes";
             this.ResumeLayout(false);
             this.PerformLayout();
