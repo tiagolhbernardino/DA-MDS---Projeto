@@ -17,7 +17,7 @@ namespace iCantina
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new GestaoCliente());
+            Application.Run(new Extras());
         }
     }
 }

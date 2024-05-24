@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace iCantina.views
 {
-    public partial class Funcionário : Form
+    public partial class Extras : Form
     {
-        public Funcionário()
+        public Extras()
         {
             InitializeComponent();
+        }
+
+        private void bt_criarExtras_Click(object sender, EventArgs e)
+        {
+            string extra = textBoxExtras.Text;
+
+            listBoxExtras.Items.Add(extra);
         }
     }
 }
