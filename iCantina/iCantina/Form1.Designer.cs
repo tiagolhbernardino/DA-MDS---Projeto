@@ -31,8 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.labelUtilizador = new System.Windows.Forms.Label();
             this.labelPalavraPasse = new System.Windows.Forms.Label();
-            this.textBoxUsername = new System.Windows.Forms.TextBox();
-            this.textBoxPassword = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.buttonLogIn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -40,9 +40,9 @@
             // 
             this.labelUtilizador.AutoSize = true;
             this.labelUtilizador.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelUtilizador.Location = new System.Drawing.Point(235, 165);
+            this.labelUtilizador.Location = new System.Drawing.Point(264, 206);
             this.labelUtilizador.Name = "labelUtilizador";
-            this.labelUtilizador.Size = new System.Drawing.Size(113, 25);
+            this.labelUtilizador.Size = new System.Drawing.Size(136, 29);
             this.labelUtilizador.TabIndex = 0;
             this.labelUtilizador.Text = "Username: ";
             // 
@@ -50,58 +50,54 @@
             // 
             this.labelPalavraPasse.AutoSize = true;
             this.labelPalavraPasse.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelPalavraPasse.Location = new System.Drawing.Point(235, 219);
+            this.labelPalavraPasse.Location = new System.Drawing.Point(264, 274);
             this.labelPalavraPasse.Name = "labelPalavraPasse";
-            this.labelPalavraPasse.Size = new System.Drawing.Size(109, 25);
+            this.labelPalavraPasse.Size = new System.Drawing.Size(132, 29);
             this.labelPalavraPasse.TabIndex = 1;
             this.labelPalavraPasse.Text = "Password: ";
             // 
-            // textBoxUsername
+            // textBox1
             // 
-            this.textBoxUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxUsername.Location = new System.Drawing.Point(351, 161);
-            this.textBoxUsername.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBoxUsername.Name = "textBoxUsername";
-            this.textBoxUsername.Size = new System.Drawing.Size(218, 30);
-            this.textBoxUsername.TabIndex = 1;
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(395, 201);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(245, 35);
+            this.textBox1.TabIndex = 1;
             // 
-            // textBoxPassword
+            // textBox2
             // 
-            this.textBoxPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxPassword.Location = new System.Drawing.Point(350, 215);
-            this.textBoxPassword.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBoxPassword.Name = "textBoxPassword";
-            this.textBoxPassword.Size = new System.Drawing.Size(218, 30);
-            this.textBoxPassword.TabIndex = 2;
-            this.textBoxPassword.UseSystemPasswordChar = true;
+            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Location = new System.Drawing.Point(394, 269);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(245, 35);
+            this.textBox2.TabIndex = 2;
+            this.textBox2.UseSystemPasswordChar = true;
             // 
             // buttonLogIn
             // 
-            this.buttonLogIn.Location = new System.Drawing.Point(452, 280);
-            this.buttonLogIn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.buttonLogIn.Location = new System.Drawing.Point(509, 350);
             this.buttonLogIn.Name = "buttonLogIn";
-            this.buttonLogIn.Size = new System.Drawing.Size(116, 27);
+            this.buttonLogIn.Size = new System.Drawing.Size(130, 34);
             this.buttonLogIn.TabIndex = 3;
             this.buttonLogIn.Text = "LogIn";
             this.buttonLogIn.UseVisualStyleBackColor = true;
-            this.buttonLogIn.Click += new System.EventHandler(this.buttonLogIn_Click);
             // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(804, 450);
+            this.ClientSize = new System.Drawing.Size(904, 562);
             this.Controls.Add(this.buttonLogIn);
-            this.Controls.Add(this.textBoxPassword);
-            this.Controls.Add(this.textBoxUsername);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.labelPalavraPasse);
             this.Controls.Add(this.labelUtilizador);
             this.DoubleBuffered = true;
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Login";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -112,8 +108,8 @@
 
         private System.Windows.Forms.Label labelUtilizador;
         private System.Windows.Forms.Label labelPalavraPasse;
-        private System.Windows.Forms.TextBox textBoxUsername;
-        private System.Windows.Forms.TextBox textBoxPassword;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Button buttonLogIn;
     }
 }

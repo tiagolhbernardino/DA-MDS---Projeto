@@ -16,18 +16,5 @@ namespace iCantina.views
         {
             InitializeComponent();
         }
-        private void Closed_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            Close();
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-            Faturas faturas=new Faturas();
-
-            Hide();
-            faturas.FormClosed += Closed_FormClosed;
-            faturas.Show();
-        }
     }
 }
