@@ -1,12 +1,120 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\tiago\\Documents\\IPL\\2 - Semestre\\Projetos\\DA\\DA-MDS---Projeto\\iCantina\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\tiagl\\OneDrive\\Ambiente de Trabalho\\PROJETO DA\\DA-MDS---Projeto\\iCantina\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1B96BD12-8D19-4822-AEE3-F3BBC7E2B1B9}|iCantina\\iCantina.csproj|c:\\users\\tiagl\\onedrive\\ambiente de trabalho\\projeto da\\da-mds---projeto\\icantina\\icantina\\views\\faturas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1B96BD12-8D19-4822-AEE3-F3BBC7E2B1B9}|iCantina\\iCantina.csproj|solutionrelative:icantina\\views\\faturas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B96BD12-8D19-4822-AEE3-F3BBC7E2B1B9}|iCantina\\iCantina.csproj|C:\\Users\\tiagl\\OneDrive\\Ambiente de Trabalho\\PROJETO DA\\DA-MDS---Projeto\\iCantina\\icantina\\views\\formularioprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1B96BD12-8D19-4822-AEE3-F3BBC7E2B1B9}|iCantina\\iCantina.csproj|solutionrelative:icantina\\views\\formularioprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B96BD12-8D19-4822-AEE3-F3BBC7E2B1B9}|iCantina\\iCantina.csproj|C:\\Users\\tiagl\\OneDrive\\Ambiente de Trabalho\\PROJETO DA\\DA-MDS---Projeto\\iCantina\\icantina\\views\\faturas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B96BD12-8D19-4822-AEE3-F3BBC7E2B1B9}|iCantina\\iCantina.csproj|solutionrelative:icantina\\views\\faturas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B96BD12-8D19-4822-AEE3-F3BBC7E2B1B9}|iCantina\\iCantina.csproj|C:\\Users\\tiagl\\OneDrive\\Ambiente de Trabalho\\PROJETO DA\\DA-MDS---Projeto\\iCantina\\icantina\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B96BD12-8D19-4822-AEE3-F3BBC7E2B1B9}|iCantina\\iCantina.csproj|solutionrelative:icantina\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B96BD12-8D19-4822-AEE3-F3BBC7E2B1B9}|iCantina\\iCantina.csproj|C:\\Users\\tiagl\\OneDrive\\Ambiente de Trabalho\\PROJETO DA\\DA-MDS---Projeto\\iCantina\\icantina\\views\\formularioprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B96BD12-8D19-4822-AEE3-F3BBC7E2B1B9}|iCantina\\iCantina.csproj|solutionrelative:icantina\\views\\formularioprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B96BD12-8D19-4822-AEE3-F3BBC7E2B1B9}|iCantina\\iCantina.csproj|C:\\Users\\tiagl\\OneDrive\\Ambiente de Trabalho\\PROJETO DA\\DA-MDS---Projeto\\iCantina\\icantina\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1B96BD12-8D19-4822-AEE3-F3BBC7E2B1B9}|iCantina\\iCantina.csproj|solutionrelative:icantina\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Faturas.cs",
+              "DocumentMoniker": "C:\\Users\\tiagl\\OneDrive\\Ambiente de Trabalho\\PROJETO DA\\DA-MDS---Projeto\\iCantina\\iCantina\\views\\Faturas.cs",
+              "RelativeDocumentMoniker": "iCantina\\views\\Faturas.cs",
+              "ToolTip": "C:\\Users\\tiagl\\OneDrive\\Ambiente de Trabalho\\PROJETO DA\\DA-MDS---Projeto\\iCantina\\iCantina\\views\\Faturas.cs",
+              "RelativeToolTip": "iCantina\\views\\Faturas.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAUwD4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T18:36:31.178Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormularioPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\tiagl\\OneDrive\\Ambiente de Trabalho\\PROJETO DA\\DA-MDS---Projeto\\iCantina\\iCantina\\views\\FormularioPrincipal.cs",
+              "RelativeDocumentMoniker": "iCantina\\views\\FormularioPrincipal.cs",
+              "ToolTip": "C:\\Users\\tiagl\\OneDrive\\Ambiente de Trabalho\\PROJETO DA\\DA-MDS---Projeto\\iCantina\\iCantina\\views\\FormularioPrincipal.cs",
+              "RelativeToolTip": "iCantina\\views\\FormularioPrincipal.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAswBUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T18:43:52.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormularioPrincipal.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tiagl\\OneDrive\\Ambiente de Trabalho\\PROJETO DA\\DA-MDS---Projeto\\iCantina\\iCantina\\views\\FormularioPrincipal.cs",
+              "RelativeDocumentMoniker": "iCantina\\views\\FormularioPrincipal.cs",
+              "ToolTip": "C:\\Users\\tiagl\\OneDrive\\Ambiente de Trabalho\\PROJETO DA\\DA-MDS---Projeto\\iCantina\\iCantina\\views\\FormularioPrincipal.cs [Design]",
+              "RelativeToolTip": "iCantina\\views\\FormularioPrincipal.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T18:43:49.674Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\tiagl\\OneDrive\\Ambiente de Trabalho\\PROJETO DA\\DA-MDS---Projeto\\iCantina\\iCantina\\Form1.cs",
+              "RelativeDocumentMoniker": "iCantina\\Form1.cs",
+              "ToolTip": "C:\\Users\\tiagl\\OneDrive\\Ambiente de Trabalho\\PROJETO DA\\DA-MDS---Projeto\\iCantina\\iCantina\\Form1.cs",
+              "RelativeToolTip": "iCantina\\Form1.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwB8AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T18:36:49.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tiagl\\OneDrive\\Ambiente de Trabalho\\PROJETO DA\\DA-MDS---Projeto\\iCantina\\iCantina\\Form1.cs",
+              "RelativeDocumentMoniker": "iCantina\\Form1.cs",
+              "ToolTip": "C:\\Users\\tiagl\\OneDrive\\Ambiente de Trabalho\\PROJETO DA\\DA-MDS---Projeto\\iCantina\\iCantina\\Form1.cs [Design]",
+              "RelativeToolTip": "iCantina\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T18:36:45.913Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Faturas.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tiagl\\OneDrive\\Ambiente de Trabalho\\PROJETO DA\\DA-MDS---Projeto\\iCantina\\iCantina\\views\\Faturas.cs",
+              "RelativeDocumentMoniker": "iCantina\\views\\Faturas.cs",
+              "ToolTip": "C:\\Users\\tiagl\\OneDrive\\Ambiente de Trabalho\\PROJETO DA\\DA-MDS---Projeto\\iCantina\\iCantina\\views\\Faturas.cs [Design]",
+              "RelativeToolTip": "iCantina\\views\\Faturas.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T18:14:39.19Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
