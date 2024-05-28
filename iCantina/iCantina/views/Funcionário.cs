@@ -16,5 +16,10 @@ namespace iCantina.views
         {
             InitializeComponent();
         }
+
+        private void Funcionário_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
