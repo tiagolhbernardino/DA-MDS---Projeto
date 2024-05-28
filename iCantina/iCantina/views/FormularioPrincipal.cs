@@ -43,6 +43,7 @@ namespace iCantina.views
 
         private void trocarFormulario(Form novoFormulario)
         {
+            // Elimina o Fromolário caso já estaja outro abreto
             if (formularioAtivo != null)
             {
                 formularioAtivo.Close();
@@ -78,6 +79,7 @@ namespace iCantina.views
                 ButtonMenu.FillColor = Color.White;
                 ButtonMenu.ForeColor = Color.Black;
             }
+
             trocarFormulario(new Funcionário());
         }
         private void ButtonReserva_Click(object sender, EventArgs e)
