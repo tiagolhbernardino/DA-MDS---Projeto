@@ -106,6 +106,18 @@
     <Compile Include="views\GestaoCliente.Designer.cs">
       <DependentUpon>GestaoCliente.cs</DependentUpon>
     </Compile>
+    <Compile Include="views\ListaPratos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\ListaPratos.Designer.cs">
+      <DependentUpon>ListaPratos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="views\Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
@@ -129,6 +141,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="views\GestaoCliente.resx">
       <DependentUpon>GestaoCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\ListaPratos.resx">
+      <DependentUpon>ListaPratos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

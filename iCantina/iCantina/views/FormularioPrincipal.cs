@@ -43,7 +43,7 @@ namespace iCantina.views
 
         private void trocarFormulario(Form novoFormulario)
         {
-            // Elimina o Fromolário caso já estaja outro abreto
+            // Elimina o fromulário caso já estaja outro abreto
             if (formularioAtivo != null)
             {
                 formularioAtivo.Close();
