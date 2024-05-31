@@ -11,5 +11,9 @@ namespace iCantina.models
         public string Descricao {  get; set; }
         public string Tipo { get; set; }
         public string Ativo { get; set;}
+
+        public Prato()
+        {
+        }
     }
 }

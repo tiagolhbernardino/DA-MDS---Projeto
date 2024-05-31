@@ -10,6 +10,9 @@ namespace iCantina.models
     {
         public int numeroEstudante {  get; set; }
 
-
+        public Estudante()
+        {
+            
+        }
     }
 }

@@ -14,5 +14,9 @@ namespace iCantina.models
         // Class
         public Cliente Cliente { get; set; }
         public Menu Menu { get; set; }
+
+        public Fatura()
+        {
+        }
     }
 }

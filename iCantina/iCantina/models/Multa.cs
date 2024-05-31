@@ -10,5 +10,9 @@ namespace iCantina.models
     {
         public float Valor {  get; set; }
         public DateTime NumeroHoras { get; set; }
+
+        public Multa()
+        {
+        }
     }
 }

@@ -82,7 +82,7 @@ namespace iCantina.views
                 ButtonMenu.ForeColor = Color.Black;
             }
 
-            trocarFormulario(new Funcionário());
+            trocarFormulario(new Funcionario());
         }
         private void ButtonReserva_Click(object sender, EventArgs e)
         {
