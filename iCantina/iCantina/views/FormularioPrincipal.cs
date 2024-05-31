@@ -75,6 +75,8 @@ namespace iCantina.views
                 ButtonClientes.ForeColor = Color.White;
                 ButtonFatuta.FillColor = Color.OrangeRed;
                 ButtonFatuta.ForeColor = Color.White;
+                buttonPratos.FillColor = Color.OrangeRed;
+                buttonPratos.ForeColor = Color.White;
 
                 ButtonMenu.FillColor = Color.White;
                 ButtonMenu.ForeColor = Color.Black;
@@ -92,6 +94,8 @@ namespace iCantina.views
                 ButtonClientes.ForeColor = Color.White;
                 ButtonFatuta.FillColor = Color.OrangeRed;
                 ButtonFatuta.ForeColor = Color.White;
+                buttonPratos.FillColor = Color.OrangeRed;
+                buttonPratos.ForeColor = Color.White;
 
                 ButtonReserva.FillColor = Color.White;
                 ButtonReserva.ForeColor = Color.Black;
@@ -109,6 +113,8 @@ namespace iCantina.views
                 ButtonReserva.ForeColor = Color.White;
                 ButtonFatuta.FillColor = Color.OrangeRed;
                 ButtonFatuta.ForeColor = Color.White;
+                buttonPratos.FillColor = Color.OrangeRed;
+                buttonPratos.ForeColor = Color.White;
 
                 ButtonClientes.FillColor = Color.White;
                 ButtonClientes.ForeColor = Color.Black;
@@ -126,12 +132,57 @@ namespace iCantina.views
                 ButtonReserva.ForeColor = Color.White;
                 ButtonClientes.FillColor = Color.OrangeRed;
                 ButtonClientes.ForeColor = Color.White;
+                buttonPratos.FillColor = Color.OrangeRed;
+                buttonPratos.ForeColor = Color.White;
 
                 ButtonFatuta.FillColor = Color.White;
                 ButtonFatuta.ForeColor = Color.Black;
             }
 
             trocarFormulario(new Faturas());
+        }
+
+        private void Buttin_Click(object sender, EventArgs e)
+        {
+            if (ButtonMenu.Checked == false)
+            {
+                ButtonFatuta.FillColor = Color.OrangeRed;
+                ButtonFatuta.ForeColor = Color.White;
+                ButtonReserva.FillColor = Color.OrangeRed;
+                ButtonReserva.ForeColor = Color.White;
+                ButtonClientes.FillColor = Color.OrangeRed;
+                ButtonClientes.ForeColor = Color.White;
+                buttonPratos.FillColor = Color.OrangeRed;
+                buttonPratos.ForeColor = Color.White;
+
+                ButtonMenu.FillColor = Color.White;
+                ButtonMenu.ForeColor = Color.Black;
+            }
+
+            trocarFormulario(new Menu());
+
+        }
+
+        private void buttonPratos_Click(object sender, EventArgs e)
+        {
+
+            if (buttonPratos.Checked == false)
+            {
+                ButtonFatuta.FillColor = Color.OrangeRed;
+                ButtonFatuta.ForeColor = Color.White;
+                ButtonReserva.FillColor = Color.OrangeRed;
+                ButtonReserva.ForeColor = Color.White;
+                ButtonClientes.FillColor = Color.OrangeRed;
+                ButtonClientes.ForeColor = Color.White;
+                ButtonMenu.FillColor = Color.OrangeRed;
+                ButtonMenu.ForeColor = Color.White;
+
+                buttonPratos.FillColor = Color.White;
+                buttonPratos.ForeColor = Color.Black;
+            }
+
+            trocarFormulario(new Menu());
+
         }
     }
 }

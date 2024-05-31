@@ -53,6 +53,7 @@
             this.buttonPratos.Size = new System.Drawing.Size(297, 165);
             this.buttonPratos.TabIndex = 0;
             this.buttonPratos.Text = "Pratos";
+            this.buttonPratos.Click += new System.EventHandler(this.buttonPratos_Click);
             // 
             // buttonListaPratos
             // 
@@ -128,6 +129,7 @@
             this.guna2ImageButton1.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton1.Image")));
             this.guna2ImageButton1.ImageOffset = new System.Drawing.Point(0, 0);
             this.guna2ImageButton1.ImageRotate = 0F;
+            this.guna2ImageButton1.ImageSize = new System.Drawing.Size(30, 30);
             this.guna2ImageButton1.Location = new System.Drawing.Point(-2, -5);
             this.guna2ImageButton1.Name = "guna2ImageButton1";
             this.guna2ImageButton1.PressedState.ImageSize = new System.Drawing.Size(64, 64);

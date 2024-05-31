@@ -8,17 +8,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace iCantina.views
+namespace iCantina
 {
-    public partial class ListaPratos : Form
+    public partial class Extra : Form
     {
-        public ListaPratos()
+        public Extra()
         {
             InitializeComponent();
         }
 
         
-
-       
     }
 }
