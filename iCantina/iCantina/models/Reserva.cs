@@ -1,20 +1,30 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace iCantina.models
 {
-    internal class Reserva
+    public class Reserva
     {
-        // Class
-        public Cliente Cliente {  get; set; }
-        public Multa Multa { get; set; }
-        public Prato Prato { get; set; }
-        public Menu Menu { get; set; }
-        public Extra Extra { get; set; }
+        [Key]
+        public int Id{  get; set; }
 
+
+        // Lista das class
+        public List<Multa> Multas { get; set; }
+        public List<Prato> pratos { get; set; }
+        public List<Menu> menus { get; set; }
+        public List<Extra> extras { get; set; }
+
+
+        // Class
+        public Cliente cliente { get; set; }
+
+
+        // Constructor
         public Reserva()
         {
         }

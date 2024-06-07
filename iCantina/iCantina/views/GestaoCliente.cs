@@ -33,8 +33,6 @@ namespace iCantina.views
                 return;
             }
 
-
-
             if (textBoxMultiEscolha.Name == "textBoxProfessor")
             {
                 try

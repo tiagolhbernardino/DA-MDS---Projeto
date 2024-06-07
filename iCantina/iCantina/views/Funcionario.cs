@@ -21,21 +21,17 @@ namespace iCantina.views
 
         private void ButtonCreate_Click(object sender, EventArgs e)
         {
+            // variaveis dos dados das TextBoxes 
             string name = TextBoxName.Text;
             string nif = TextBoxNif.Text;
             string username = TextBoxUsername.Text;
 
-
+            // Verifica se os campos estão preenchidos
             if (string.IsNullOrEmpty(name) || string.IsNullOrEmpty(nif) || string.IsNullOrEmpty(username))
-
             {
                 MessageBox.Show("Campos preenchimento obrigatório");
                 return;
             }
-            Funcionario funcionario = new Funcionario();
-            Utilizador utilizador = new Utilizador(name, nif);
-
         }
-
     } 
 }

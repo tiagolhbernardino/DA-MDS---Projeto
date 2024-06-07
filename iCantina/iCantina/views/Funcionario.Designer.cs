@@ -130,6 +130,7 @@
             this.TextBoxId.SelectedText = "";
             this.TextBoxId.Size = new System.Drawing.Size(187, 26);
             this.TextBoxId.TabIndex = 37;
+            this.TextBoxId.Visible = false;
             // 
             // labelBalance
             // 
@@ -141,6 +142,7 @@
             this.labelBalance.TabIndex = 36;
             this.labelBalance.Text = "Numero";
             this.labelBalance.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.labelBalance.Visible = false;
             // 
             // TextBoxNif
             // 

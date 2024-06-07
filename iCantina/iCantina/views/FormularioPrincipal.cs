@@ -81,7 +81,6 @@ namespace iCantina.views
                 ButtonMenu.FillColor = Color.White;
                 ButtonMenu.ForeColor = Color.Black;
 
-<<<<<<< HEAD
 
                 // divenir local dos buttons do submenu
                 buttonSubmenu1.Location = new System.Drawing.Point(0, 159);
@@ -103,9 +102,6 @@ namespace iCantina.views
                 buttonSubmenu3.Visible = true;
                 buttonSubmenu4.Visible = true;
             }
-=======
-            trocarFormulario(new Funcionario());
->>>>>>> a84316d14203380ac5e62ed3a0bccd6a711c6e99
         }
 
         // Reservation

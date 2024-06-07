@@ -6,13 +6,14 @@ using System.Threading.Tasks;
 
 namespace iCantina.models
 {
-    internal class Estudante
+    public class Estudante : Cliente
     {
+        // Parametros da Class
         public int numeroEstudante {  get; set; }
 
+        // Constructor
         public Estudante()
         {
-            
         }
     }
 }

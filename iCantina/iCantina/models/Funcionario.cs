@@ -6,13 +6,15 @@ using System.Threading.Tasks;
 
 namespace iCantina.models
 {
-    internal class Funcionario
+    public class Funcionario : Utilizador
     {
+        // Parametros da Class
         public string Username { get; set; }
 
-        public Funcionario(string username)
+        
+        // Constructor
+        public Funcionario() 
         {
-            Username = username;
         }
     }
 }

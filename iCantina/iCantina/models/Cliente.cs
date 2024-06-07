@@ -6,17 +6,14 @@ using System.Threading.Tasks;
 
 namespace iCantina.models
 {
-    internal class Cliente
+    public class Cliente : Utilizador
     {
+        // Parametros da Class
         public float saldo {  get; set; }
 
-        // Class
-        public Estudante Estudante { get; set; }
-        public Professor Professor { get; set; }
-
-        public Cliente(float saldo, Estudante estudante, Professor professor)
+        // Constructor
+        public Cliente()
         {
-            
         }
     }
 }
