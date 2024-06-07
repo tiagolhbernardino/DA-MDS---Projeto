@@ -1,4 +1,6 @@
-﻿using System;
+﻿using iCantina.models;
+using iCantina.views;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,13 +12,15 @@ using System.Windows.Forms;
 
 namespace iCantina
 {
-    public partial class Extra : Form
+    public partial class FromExtra : Form
     {
-        public Extra()
+        public FromExtra()
         {
             InitializeComponent();
         }
 
-        
+        private void guna2CircleButton1_Click(object sender, EventArgs e)
+        {
+        }
     }
 }

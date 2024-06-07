@@ -1,6 +1,6 @@
 ﻿namespace iCantina
 {
-    partial class Extra
+    partial class FromExtra
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Extra));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FromExtra));
             this.buttonPao = new System.Windows.Forms.Button();
             this.buttonSopa = new System.Windows.Forms.Button();
             this.buttonSalada = new System.Windows.Forms.Button();
@@ -50,9 +50,10 @@
             // buttonPao
             // 
             this.buttonPao.BackColor = System.Drawing.Color.Peru;
-            this.buttonPao.Location = new System.Drawing.Point(87, 62);
+            this.buttonPao.Location = new System.Drawing.Point(77, 50);
+            this.buttonPao.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonPao.Name = "buttonPao";
-            this.buttonPao.Size = new System.Drawing.Size(153, 142);
+            this.buttonPao.Size = new System.Drawing.Size(136, 114);
             this.buttonPao.TabIndex = 0;
             this.buttonPao.Text = "Pão";
             this.buttonPao.UseVisualStyleBackColor = false;
@@ -60,9 +61,10 @@
             // buttonSopa
             // 
             this.buttonSopa.BackColor = System.Drawing.Color.Peru;
-            this.buttonSopa.Location = new System.Drawing.Point(264, 62);
+            this.buttonSopa.Location = new System.Drawing.Point(235, 50);
+            this.buttonSopa.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonSopa.Name = "buttonSopa";
-            this.buttonSopa.Size = new System.Drawing.Size(153, 142);
+            this.buttonSopa.Size = new System.Drawing.Size(136, 114);
             this.buttonSopa.TabIndex = 1;
             this.buttonSopa.Text = "Sopa";
             this.buttonSopa.UseVisualStyleBackColor = false;
@@ -70,9 +72,10 @@
             // buttonSalada
             // 
             this.buttonSalada.BackColor = System.Drawing.Color.Peru;
-            this.buttonSalada.Location = new System.Drawing.Point(87, 231);
+            this.buttonSalada.Location = new System.Drawing.Point(77, 185);
+            this.buttonSalada.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonSalada.Name = "buttonSalada";
-            this.buttonSalada.Size = new System.Drawing.Size(153, 142);
+            this.buttonSalada.Size = new System.Drawing.Size(136, 114);
             this.buttonSalada.TabIndex = 2;
             this.buttonSalada.Text = "Salada";
             this.buttonSalada.UseVisualStyleBackColor = false;
@@ -80,9 +83,10 @@
             // buttonFruta
             // 
             this.buttonFruta.BackColor = System.Drawing.Color.Peru;
-            this.buttonFruta.Location = new System.Drawing.Point(264, 231);
+            this.buttonFruta.Location = new System.Drawing.Point(235, 185);
+            this.buttonFruta.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonFruta.Name = "buttonFruta";
-            this.buttonFruta.Size = new System.Drawing.Size(153, 142);
+            this.buttonFruta.Size = new System.Drawing.Size(136, 114);
             this.buttonFruta.TabIndex = 3;
             this.buttonFruta.Text = "Fruta";
             this.buttonFruta.UseVisualStyleBackColor = false;
@@ -90,9 +94,10 @@
             // buttonGelatina
             // 
             this.buttonGelatina.BackColor = System.Drawing.Color.Peru;
-            this.buttonGelatina.Location = new System.Drawing.Point(87, 398);
+            this.buttonGelatina.Location = new System.Drawing.Point(77, 318);
+            this.buttonGelatina.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonGelatina.Name = "buttonGelatina";
-            this.buttonGelatina.Size = new System.Drawing.Size(153, 142);
+            this.buttonGelatina.Size = new System.Drawing.Size(136, 114);
             this.buttonGelatina.TabIndex = 4;
             this.buttonGelatina.Text = "Gelatina";
             this.buttonGelatina.UseVisualStyleBackColor = false;
@@ -100,9 +105,10 @@
             // buttonPudim
             // 
             this.buttonPudim.BackColor = System.Drawing.Color.Peru;
-            this.buttonPudim.Location = new System.Drawing.Point(264, 398);
+            this.buttonPudim.Location = new System.Drawing.Point(235, 318);
+            this.buttonPudim.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonPudim.Name = "buttonPudim";
-            this.buttonPudim.Size = new System.Drawing.Size(153, 142);
+            this.buttonPudim.Size = new System.Drawing.Size(136, 114);
             this.buttonPudim.TabIndex = 5;
             this.buttonPudim.Text = "Pudim";
             this.buttonPudim.UseVisualStyleBackColor = false;
@@ -110,9 +116,10 @@
             // buttonSumoNat
             // 
             this.buttonSumoNat.BackColor = System.Drawing.Color.Peru;
-            this.buttonSumoNat.Location = new System.Drawing.Point(87, 567);
+            this.buttonSumoNat.Location = new System.Drawing.Point(77, 454);
+            this.buttonSumoNat.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonSumoNat.Name = "buttonSumoNat";
-            this.buttonSumoNat.Size = new System.Drawing.Size(153, 142);
+            this.buttonSumoNat.Size = new System.Drawing.Size(136, 114);
             this.buttonSumoNat.TabIndex = 6;
             this.buttonSumoNat.Text = "Sumo Laranja";
             this.buttonSumoNat.UseVisualStyleBackColor = false;
@@ -120,9 +127,10 @@
             // butonSaladaFruta
             // 
             this.butonSaladaFruta.BackColor = System.Drawing.Color.Peru;
-            this.butonSaladaFruta.Location = new System.Drawing.Point(264, 567);
+            this.butonSaladaFruta.Location = new System.Drawing.Point(235, 454);
+            this.butonSaladaFruta.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.butonSaladaFruta.Name = "butonSaladaFruta";
-            this.butonSaladaFruta.Size = new System.Drawing.Size(153, 142);
+            this.butonSaladaFruta.Size = new System.Drawing.Size(136, 114);
             this.butonSaladaFruta.TabIndex = 7;
             this.butonSaladaFruta.Text = "Salada de fruta";
             this.butonSaladaFruta.UseVisualStyleBackColor = false;
@@ -130,53 +138,59 @@
             // listBoxApagar
             // 
             this.listBoxApagar.FormattingEnabled = true;
-            this.listBoxApagar.ItemHeight = 20;
-            this.listBoxApagar.Location = new System.Drawing.Point(461, 62);
+            this.listBoxApagar.ItemHeight = 16;
+            this.listBoxApagar.Location = new System.Drawing.Point(410, 50);
+            this.listBoxApagar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.listBoxApagar.Name = "listBoxApagar";
-            this.listBoxApagar.Size = new System.Drawing.Size(279, 564);
+            this.listBoxApagar.Size = new System.Drawing.Size(248, 452);
             this.listBoxApagar.TabIndex = 8;
             // 
             // listBoxAdicionar
             // 
             this.listBoxAdicionar.FormattingEnabled = true;
-            this.listBoxAdicionar.ItemHeight = 20;
-            this.listBoxAdicionar.Location = new System.Drawing.Point(759, 62);
+            this.listBoxAdicionar.ItemHeight = 16;
+            this.listBoxAdicionar.Location = new System.Drawing.Point(675, 50);
+            this.listBoxAdicionar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.listBoxAdicionar.Name = "listBoxAdicionar";
-            this.listBoxAdicionar.Size = new System.Drawing.Size(292, 564);
+            this.listBoxAdicionar.Size = new System.Drawing.Size(260, 452);
             this.listBoxAdicionar.TabIndex = 9;
             // 
             // buttonesquerda
             // 
-            this.buttonesquerda.Location = new System.Drawing.Point(623, 656);
+            this.buttonesquerda.Location = new System.Drawing.Point(554, 525);
+            this.buttonesquerda.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonesquerda.Name = "buttonesquerda";
-            this.buttonesquerda.Size = new System.Drawing.Size(130, 53);
+            this.buttonesquerda.Size = new System.Drawing.Size(116, 42);
             this.buttonesquerda.TabIndex = 10;
             this.buttonesquerda.Text = "<<<";
             this.buttonesquerda.UseVisualStyleBackColor = true;
             // 
             // buttondireita
             // 
-            this.buttondireita.Location = new System.Drawing.Point(759, 656);
+            this.buttondireita.Location = new System.Drawing.Point(675, 525);
+            this.buttondireita.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttondireita.Name = "buttondireita";
-            this.buttondireita.Size = new System.Drawing.Size(130, 53);
+            this.buttondireita.Size = new System.Drawing.Size(116, 42);
             this.buttondireita.TabIndex = 11;
             this.buttondireita.Text = ">>>";
             this.buttondireita.UseVisualStyleBackColor = true;
             // 
             // buttonAdicionar
             // 
-            this.buttonAdicionar.Location = new System.Drawing.Point(895, 656);
+            this.buttonAdicionar.Location = new System.Drawing.Point(796, 525);
+            this.buttonAdicionar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonAdicionar.Name = "buttonAdicionar";
-            this.buttonAdicionar.Size = new System.Drawing.Size(156, 53);
+            this.buttonAdicionar.Size = new System.Drawing.Size(139, 42);
             this.buttonAdicionar.TabIndex = 12;
             this.buttonAdicionar.Text = "Adicionar";
             this.buttonAdicionar.UseVisualStyleBackColor = true;
             // 
             // buttonApagar
             // 
-            this.buttonApagar.Location = new System.Drawing.Point(461, 656);
+            this.buttonApagar.Location = new System.Drawing.Point(410, 525);
+            this.buttonApagar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonApagar.Name = "buttonApagar";
-            this.buttonApagar.Size = new System.Drawing.Size(156, 53);
+            this.buttonApagar.Size = new System.Drawing.Size(139, 42);
             this.buttonApagar.TabIndex = 13;
             this.buttonApagar.Text = "Apagar";
             this.buttonApagar.UseVisualStyleBackColor = true;
@@ -190,10 +204,11 @@
             this.guna2ImageButton1.ImageOffset = new System.Drawing.Point(0, 0);
             this.guna2ImageButton1.ImageRotate = 0F;
             this.guna2ImageButton1.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2ImageButton1.Location = new System.Drawing.Point(-3, -3);
+            this.guna2ImageButton1.Location = new System.Drawing.Point(-3, -2);
+            this.guna2ImageButton1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2ImageButton1.Name = "guna2ImageButton1";
             this.guna2ImageButton1.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton1.Size = new System.Drawing.Size(75, 69);
+            this.guna2ImageButton1.Size = new System.Drawing.Size(67, 55);
             this.guna2ImageButton1.TabIndex = 15;
             this.guna2ImageButton1.UseTransparentBackground = true;
             // 
@@ -207,17 +222,19 @@
             this.guna2CircleButton1.FillColor = System.Drawing.Color.Peru;
             this.guna2CircleButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2CircleButton1.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton1.Location = new System.Drawing.Point(-62, -74);
+            this.guna2CircleButton1.Location = new System.Drawing.Point(-55, -59);
+            this.guna2CircleButton1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2CircleButton1.Name = "guna2CircleButton1";
             this.guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton1.Size = new System.Drawing.Size(148, 148);
+            this.guna2CircleButton1.Size = new System.Drawing.Size(132, 118);
             this.guna2CircleButton1.TabIndex = 14;
+            this.guna2CircleButton1.Click += new System.EventHandler(this.guna2CircleButton1_Click);
             // 
-            // Extra
+            // FromExtra
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1087, 806);
+            this.ClientSize = new System.Drawing.Size(966, 645);
             this.Controls.Add(this.guna2ImageButton1);
             this.Controls.Add(this.guna2CircleButton1);
             this.Controls.Add(this.buttonApagar);
@@ -234,7 +251,8 @@
             this.Controls.Add(this.buttonSalada);
             this.Controls.Add(this.buttonSopa);
             this.Controls.Add(this.buttonPao);
-            this.Name = "Extra";
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Name = "FromExtra";
             this.Text = "Extra";
             this.ResumeLayout(false);
 

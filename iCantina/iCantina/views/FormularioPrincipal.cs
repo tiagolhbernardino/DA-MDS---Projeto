@@ -1,4 +1,5 @@
-﻿using System;
+﻿using iCantina.models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,7 +15,6 @@ namespace iCantina.views
     public partial class FormularioPrincipal : Form
     {
         private Form formularioAtivo;
-        private Button buttonAtivo;
 
         public FormularioPrincipal()
         {
@@ -64,125 +64,222 @@ namespace iCantina.views
             novoFormulario.Show();
         }
         
-
+        // Menu
         private void ButtonMenu_Click(object sender, EventArgs e)
         {
             if (ButtonMenu.Checked == false)
             {
-                ButtonReserva.FillColor = Color.OrangeRed;
-                ButtonReserva.ForeColor = Color.White;
-                ButtonClientes.FillColor = Color.OrangeRed;
-                ButtonClientes.ForeColor = Color.White;
-                ButtonFatuta.FillColor = Color.OrangeRed;
-                ButtonFatuta.ForeColor = Color.White;
-                buttonPratos.FillColor = Color.OrangeRed;
-                buttonPratos.ForeColor = Color.White;
+                // Mudar de cor dos buttons menu
+                ButtonReservation.FillColor = Color.OrangeRed;
+                ButtonReservation.ForeColor = Color.White;
+                ButtonClient.FillColor = Color.OrangeRed;
+                ButtonClient.ForeColor = Color.White;
+                buttonEmployee.FillColor = Color.OrangeRed;
+                buttonEmployee.ForeColor = Color.White;
 
+                // Mudar de cor no button menu
                 ButtonMenu.FillColor = Color.White;
                 ButtonMenu.ForeColor = Color.Black;
-            }
 
-            trocarFormulario(new Funcionário());
+
+                // divenir local dos buttons do submenu
+                buttonSubmenu1.Location = new System.Drawing.Point(0, 159);
+                buttonSubmenu2.Location = new System.Drawing.Point(0, 219);
+                buttonSubmenu3.Location = new System.Drawing.Point(0, 279);
+                buttonSubmenu4.Location = new System.Drawing.Point(0, 339);
+
+
+                // trocar o nome dos button do submenu
+                buttonSubmenu1.Text = "Pratos";
+                buttonSubmenu2.Text = "Extras";
+                buttonSubmenu3.Text = "Multa";
+                buttonSubmenu4.Text = "Fatura";
+
+                // tronar visivel o submenu
+                panelSubmenu.Visible = true;
+                buttonSubmenu1.Visible = true;
+                buttonSubmenu2.Visible = true;
+                buttonSubmenu3.Visible = true;
+                buttonSubmenu4.Visible = true;
+            }
         }
-        private void ButtonReserva_Click(object sender, EventArgs e)
+
+        // Reservation
+        private void ButtonReservation_Click(object sender, EventArgs e)
         {
-            if (ButtonReserva.Checked == false)
+            if (ButtonReservation.Checked == false)
+            {
+                // Mudar de cor dos buttons menu
+                ButtonMenu.FillColor = Color.OrangeRed;
+                ButtonMenu.ForeColor = Color.White;
+                ButtonClient.FillColor = Color.OrangeRed;
+                ButtonClient.ForeColor = Color.White;
+                buttonEmployee.FillColor = Color.OrangeRed;
+                buttonEmployee.ForeColor = Color.White;
+
+                // Mudar de cor no button menu
+                ButtonReservation.FillColor = Color.White;
+                ButtonReservation.ForeColor = Color.Black;
+
+
+                // divenir local dos buttons do submenu
+                buttonSubmenu1.Location = new System.Drawing.Point(0, 192);
+                buttonSubmenu2.Location = new System.Drawing.Point(0, 252);
+                buttonSubmenu3.Location = new System.Drawing.Point(0, 312);
+
+
+                // trocar o nome dos button do submenu
+                buttonSubmenu1.Text = "Pratos";
+                buttonSubmenu2.Text = "Lista Pratos";
+                buttonSubmenu3.Text = "Extras";
+
+                // tronar visivel o submenu
+                panelSubmenu.Visible = true;
+                buttonSubmenu1.Visible = true;
+                buttonSubmenu2.Visible = true;
+                buttonSubmenu3.Visible = true;
+                buttonSubmenu4.Visible = false;
+            }
+        }
+
+        // Client
+        private void ButtonClient_Click(object sender, EventArgs e)
+        {
+            if (ButtonClient.Checked == false)
             {
                 ButtonMenu.FillColor = Color.OrangeRed;
                 ButtonMenu.ForeColor = Color.White;
-                ButtonClientes.FillColor = Color.OrangeRed;
-                ButtonClientes.ForeColor = Color.White;
-                ButtonFatuta.FillColor = Color.OrangeRed;
-                ButtonFatuta.ForeColor = Color.White;
-                buttonPratos.FillColor = Color.OrangeRed;
-                buttonPratos.ForeColor = Color.White;
+                ButtonReservation.FillColor = Color.OrangeRed;
+                ButtonReservation.ForeColor = Color.White;
+                buttonEmployee.FillColor = Color.OrangeRed;
+                buttonEmployee.ForeColor = Color.White;
 
-                ButtonReserva.FillColor = Color.White;
-                ButtonReserva.ForeColor = Color.Black;
-            }
-
-            trocarFormulario(new GestaoCliente());
-        }
-        private void ButtonClientes_Click(object sender, EventArgs e)
-        {
-            if (ButtonClientes.Checked == false)
-            {
-                ButtonMenu.FillColor = Color.OrangeRed;
-                ButtonMenu.ForeColor = Color.White;
-                ButtonReserva.FillColor = Color.OrangeRed;
-                ButtonReserva.ForeColor = Color.White;
-                ButtonFatuta.FillColor = Color.OrangeRed;
-                ButtonFatuta.ForeColor = Color.White;
-                buttonPratos.FillColor = Color.OrangeRed;
-                buttonPratos.ForeColor = Color.White;
-
-                ButtonClientes.FillColor = Color.White;
-                ButtonClientes.ForeColor = Color.Black;
-            }
-
-            trocarFormulario(new GestaoCliente());
-        }
-        private void ButtonFatuta_Click(object sender, EventArgs e)
-        {
-            if (ButtonFatuta.Checked == false)
-            {
-                ButtonMenu.FillColor = Color.OrangeRed;
-                ButtonMenu.ForeColor = Color.White;
-                ButtonReserva.FillColor = Color.OrangeRed;
-                ButtonReserva.ForeColor = Color.White;
-                ButtonClientes.FillColor = Color.OrangeRed;
-                ButtonClientes.ForeColor = Color.White;
-                buttonPratos.FillColor = Color.OrangeRed;
-                buttonPratos.ForeColor = Color.White;
-
-                ButtonFatuta.FillColor = Color.White;
-                ButtonFatuta.ForeColor = Color.Black;
+                ButtonClient.FillColor = Color.White;
+                ButtonClient.ForeColor = Color.Black;
             }
 
             trocarFormulario(new Faturas());
         }
 
-        private void Buttin_Click(object sender, EventArgs e)
+        // Employee
+        private void buttonEmployee_Click(object sender, EventArgs e)
         {
-            if (ButtonMenu.Checked == false)
+            if (ButtonClient.Checked == false)
             {
-                ButtonFatuta.FillColor = Color.OrangeRed;
-                ButtonFatuta.ForeColor = Color.White;
-                ButtonReserva.FillColor = Color.OrangeRed;
-                ButtonReserva.ForeColor = Color.White;
-                ButtonClientes.FillColor = Color.OrangeRed;
-                ButtonClientes.ForeColor = Color.White;
-                buttonPratos.FillColor = Color.OrangeRed;
-                buttonPratos.ForeColor = Color.White;
-
-                ButtonMenu.FillColor = Color.White;
-                ButtonMenu.ForeColor = Color.Black;
-            }
-
-            trocarFormulario(new Menu());
-
-        }
-
-        private void buttonPratos_Click(object sender, EventArgs e)
-        {
-
-            if (buttonPratos.Checked == false)
-            {
-                ButtonFatuta.FillColor = Color.OrangeRed;
-                ButtonFatuta.ForeColor = Color.White;
-                ButtonReserva.FillColor = Color.OrangeRed;
-                ButtonReserva.ForeColor = Color.White;
-                ButtonClientes.FillColor = Color.OrangeRed;
-                ButtonClientes.ForeColor = Color.White;
                 ButtonMenu.FillColor = Color.OrangeRed;
                 ButtonMenu.ForeColor = Color.White;
+                ButtonReservation.FillColor = Color.OrangeRed;
+                ButtonReservation.ForeColor = Color.White;
+                buttonEmployee.FillColor = Color.OrangeRed;
+                buttonEmployee.ForeColor = Color.White;
 
-                buttonPratos.FillColor = Color.White;
-                buttonPratos.ForeColor = Color.Black;
+                ButtonClient.FillColor = Color.White;
+                ButtonClient.ForeColor = Color.Black;
             }
 
-            trocarFormulario(new Menu());
+            trocarFormulario(new Faturas());
+        }
 
+
+        // Button Submenus
+        private void buttonSubmenu1_Click(object sender, EventArgs e)
+        {
+            if(buttonSubmenu1.Text == "Pratos")
+            {
+                // tornar invisivel o submenu
+                panelSubmenu.Visible = false;
+                buttonSubmenu1.Visible = false;
+                buttonSubmenu2.Visible = false;
+                buttonSubmenu3.Visible = false;
+                buttonSubmenu4.Visible = false;
+
+                // inserir o furmolario no form principal
+                trocarFormulario(new Faturas());
+            }
+            
+
+            if (buttonSubmenu1.Text == "Pratos")
+            {                   
+                // tornar invisivel o submenu
+                panelSubmenu.Visible = false;
+                buttonSubmenu1.Visible = false;
+                buttonSubmenu2.Visible = false;
+                buttonSubmenu3.Visible = false;
+
+                // inserir o furmolario no form principal
+                trocarFormulario(new Faturas());
+            }
+        }
+        private void buttonSubmenu2_Click(object sender, EventArgs e)
+        {
+            if (buttonSubmenu2.Text == "Extras")
+            {
+                // tornar invisivel o submenu
+                panelSubmenu.Visible = false;
+                buttonSubmenu1.Visible = false;
+                buttonSubmenu2.Visible = false;
+                buttonSubmenu3.Visible = false;
+                buttonSubmenu4.Visible = false;
+
+                // inserir o furmolario no form principal
+                trocarFormulario(new FromExtra());
+            }
+
+
+            if (buttonSubmenu2.Text == "Lista Pratos")
+            {
+                // tornar invisivel o submenu
+                panelSubmenu.Visible = false;
+                buttonSubmenu1.Visible = false;
+                buttonSubmenu2.Visible = false;
+                buttonSubmenu3.Visible = false;
+
+                // inserir o furmolario no form principal
+                trocarFormulario(new ListaPratos());
+            }
+        }
+        private void buttonSubmenu3_Click(object sender, EventArgs e)
+        {
+            if (buttonSubmenu3.Text == "Multa")
+            {
+                // tornar invisivel o submenu
+                panelSubmenu.Visible = false;
+                buttonSubmenu1.Visible = false;
+                buttonSubmenu2.Visible = false;
+                buttonSubmenu3.Visible = false;
+                buttonSubmenu4.Visible = false;
+
+                // inserir o furmolario no form principal
+                trocarFormulario(new Faturas());
+            }
+
+
+            if (buttonSubmenu3.Text == "Extras")
+            {
+                // tornar invisivel o submenu
+                panelSubmenu.Visible = false;
+                buttonSubmenu1.Visible = false;
+                buttonSubmenu2.Visible = false;
+                buttonSubmenu3.Visible = false;
+
+                // inserir o furmolario no form principal
+                trocarFormulario(new FromExtra());
+            }
+        }
+        private void buttonSubmenu4_Click(object sender, EventArgs e)
+        {
+            if (buttonSubmenu4.Text == "Fatura")
+            {
+                // tornar invisivel o submenu
+                panelSubmenu.Visible = false;
+                buttonSubmenu1.Visible = false;
+                buttonSubmenu2.Visible = false;
+                buttonSubmenu3.Visible = false;
+                buttonSubmenu4.Visible = false;
+
+                // inserir o furmolario no form principal
+                trocarFormulario(new Faturas());
+            }
         }
     }
 }
