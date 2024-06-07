@@ -16,5 +16,9 @@ namespace iCantina.models
         // Class
         public Prato Prato { get; set; }
         public Extra Extra { get; set; }
+
+        public Menu()
+        {
+        }
     }
 }

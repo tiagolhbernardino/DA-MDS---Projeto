@@ -9,5 +9,10 @@ namespace iCantina.models
     internal class Funcionario
     {
         public string Username { get; set; }
+
+        public Funcionario(string username)
+        {
+            Username = username;
+        }
     }
 }

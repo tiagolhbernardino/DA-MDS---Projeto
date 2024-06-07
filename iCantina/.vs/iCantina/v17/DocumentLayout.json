@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\tiago\\Documents\\IPL\\2 - Semestre\\Projetos\\DA\\v1\\DA-MDS---Projeto\\iCantina\\",
   "Documents": [
     {
@@ -29,6 +30,25 @@
     {
       "AbsoluteMoniker": "D:0:0:{1B96BD12-8D19-4822-AEE3-F3BBC7E2B1B9}|iCantina\\iCantina.csproj|C:\\Users\\tiago\\Documents\\IPL\\2 - Semestre\\Projetos\\DA\\v1\\DA-MDS---Projeto\\iCantina\\icantina\\views\\extra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1B96BD12-8D19-4822-AEE3-F3BBC7E2B1B9}|iCantina\\iCantina.csproj|solutionrelative:icantina\\views\\extra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+=======
+  "WorkspaceRootPath": "C:\\Users\\vidal\\OneDrive\\\u00C1rea de Trabalho\\DA-MDS---Projeto\\iCantina\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1B96BD12-8D19-4822-AEE3-F3BBC7E2B1B9}|iCantina\\iCantina.csproj|c:\\users\\vidal\\onedrive\\\u00E1rea de trabalho\\da-mds---projeto\\icantina\\icantina\\views\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B96BD12-8D19-4822-AEE3-F3BBC7E2B1B9}|iCantina\\iCantina.csproj|solutionrelative:icantina\\views\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B96BD12-8D19-4822-AEE3-F3BBC7E2B1B9}|iCantina\\iCantina.csproj|C:\\Users\\vidal\\OneDrive\\\u00C1rea de Trabalho\\DA-MDS---Projeto\\iCantina\\icantina\\views\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1B96BD12-8D19-4822-AEE3-F3BBC7E2B1B9}|iCantina\\iCantina.csproj|solutionrelative:icantina\\views\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B96BD12-8D19-4822-AEE3-F3BBC7E2B1B9}|iCantina\\iCantina.csproj|C:\\Users\\vidal\\OneDrive\\\u00C1rea de Trabalho\\DA-MDS---Projeto\\iCantina\\icantina\\models\\utilizador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B96BD12-8D19-4822-AEE3-F3BBC7E2B1B9}|iCantina\\iCantina.csproj|solutionrelative:icantina\\models\\utilizador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B96BD12-8D19-4822-AEE3-F3BBC7E2B1B9}|iCantina\\iCantina.csproj|C:\\Users\\vidal\\OneDrive\\\u00C1rea de Trabalho\\DA-MDS---Projeto\\iCantina\\icantina\\models\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B96BD12-8D19-4822-AEE3-F3BBC7E2B1B9}|iCantina\\iCantina.csproj|solutionrelative:icantina\\models\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> a84316d14203380ac5e62ed3a0bccd6a711c6e99
     }
   ],
   "DocumentGroupContainers": [
@@ -38,10 +58,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 0,
               "Title": "Login.cs",
               "DocumentMoniker": "C:\\Users\\tiago\\Documents\\IPL\\2 - Semestre\\Projetos\\DA\\v1\\DA-MDS---Projeto\\iCantina\\iCantina\\Login.cs",
@@ -122,6 +143,53 @@
               "RelativeToolTip": "iCantina\\views\\FormularioPrincipal.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-31T18:56:11.903Z"
+=======
+              "DocumentIndex": 3,
+              "Title": "Funcionario.cs",
+              "DocumentMoniker": "C:\\Users\\vidal\\OneDrive\\\u00C1rea de Trabalho\\DA-MDS---Projeto\\iCantina\\iCantina\\models\\Funcionario.cs",
+              "RelativeDocumentMoniker": "iCantina\\models\\Funcionario.cs",
+              "ToolTip": "C:\\Users\\vidal\\OneDrive\\\u00C1rea de Trabalho\\DA-MDS---Projeto\\iCantina\\iCantina\\models\\Funcionario.cs",
+              "RelativeToolTip": "iCantina\\models\\Funcionario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAtwA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T20:18:31.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Utilizador.cs",
+              "DocumentMoniker": "C:\\Users\\vidal\\OneDrive\\\u00C1rea de Trabalho\\DA-MDS---Projeto\\iCantina\\iCantina\\models\\Utilizador.cs",
+              "RelativeDocumentMoniker": "iCantina\\models\\Utilizador.cs",
+              "ToolTip": "C:\\Users\\vidal\\OneDrive\\\u00C1rea de Trabalho\\DA-MDS---Projeto\\iCantina\\iCantina\\models\\Utilizador.cs",
+              "RelativeToolTip": "iCantina\\models\\Utilizador.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAawBIAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T20:17:24.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Funcionario.cs",
+              "DocumentMoniker": "C:\\Users\\vidal\\OneDrive\\\u00C1rea de Trabalho\\DA-MDS---Projeto\\iCantina\\iCantina\\views\\Funcionario.cs",
+              "RelativeDocumentMoniker": "iCantina\\views\\Funcionario.cs",
+              "ToolTip": "C:\\Users\\vidal\\OneDrive\\\u00C1rea de Trabalho\\DA-MDS---Projeto\\iCantina\\iCantina\\views\\Funcionario.cs",
+              "RelativeToolTip": "iCantina\\views\\Funcionario.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAowCMAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T20:10:54.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Funcionario.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\vidal\\OneDrive\\\u00C1rea de Trabalho\\DA-MDS---Projeto\\iCantina\\iCantina\\views\\Funcionario.cs",
+              "RelativeDocumentMoniker": "iCantina\\views\\Funcionario.cs",
+              "ToolTip": "C:\\Users\\vidal\\OneDrive\\\u00C1rea de Trabalho\\DA-MDS---Projeto\\iCantina\\iCantina\\views\\Funcionario.cs [Design]",
+              "RelativeToolTip": "iCantina\\views\\Funcionario.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T20:03:59.192Z"
+>>>>>>> a84316d14203380ac5e62ed3a0bccd6a711c6e99
             }
           ]
         }

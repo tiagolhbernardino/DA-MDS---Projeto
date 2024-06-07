@@ -13,5 +13,10 @@ namespace iCantina.models
         // Class
         public Estudante Estudante { get; set; }
         public Professor Professor { get; set; }
+
+        public Cliente(float saldo, Estudante estudante, Professor professor)
+        {
+            
+        }
     }
 }

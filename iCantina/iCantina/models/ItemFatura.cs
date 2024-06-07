@@ -13,5 +13,9 @@ namespace iCantina.models
 
         // Class
         public Fatura Fatura { get; set; }
+
+        public ItemFatura()
+        {
+        }
     }
 }

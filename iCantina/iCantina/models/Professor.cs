@@ -9,5 +9,9 @@ namespace iCantina.models
     internal class Professor
     {
         public string Email { get; set; }
+
+        public Professor()
+        {
+        }
     }
 }

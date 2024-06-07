@@ -100,11 +100,11 @@
     <Compile Include="views\FormularioPrincipal.Designer.cs">
       <DependentUpon>FormularioPrincipal.cs</DependentUpon>
     </Compile>
-    <Compile Include="views\Funcionário.cs">
+    <Compile Include="views\Funcionario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="views\Funcionário.Designer.cs">
-      <DependentUpon>Funcionário.cs</DependentUpon>
+    <Compile Include="views\Funcionario.Designer.cs">
+      <DependentUpon>Funcionario.cs</DependentUpon>
     </Compile>
     <Compile Include="views\GestaoCliente.cs">
       <SubType>Form</SubType>
@@ -139,8 +139,8 @@
     <EmbeddedResource Include="views\FormularioPrincipal.resx">
       <DependentUpon>FormularioPrincipal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="views\Funcionário.resx">
-      <DependentUpon>Funcionário.cs</DependentUpon>
+    <EmbeddedResource Include="views\Funcionario.resx">
+      <DependentUpon>Funcionario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="views\GestaoCliente.resx">
       <DependentUpon>GestaoCliente.cs</DependentUpon>

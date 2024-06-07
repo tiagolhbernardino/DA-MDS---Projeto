@@ -11,5 +11,10 @@ namespace iCantina.models
         public string Descricao { get; set; }
         public float Preco {  get; set; }
         public string Ativo { get; set; }
+
+        public Extra()
+        {
+           
+        }
     }
 }
