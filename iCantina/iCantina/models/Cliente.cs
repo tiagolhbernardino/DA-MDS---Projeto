@@ -9,7 +9,7 @@ namespace iCantina.models
     public class Cliente : Utilizador
     {
         // Parametros da Class
-        public float saldo {  get; set; }
+        public float Saldo {  get; set; }
 
         // Constructor
         public Cliente()

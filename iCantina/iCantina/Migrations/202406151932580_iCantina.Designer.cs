@@ -13,12 +13,12 @@ namespace iCantina.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "202406072031246_iCantina"; }
+            get { return "202406151932580_iCantina"; }
         }
         
         string IMigrationMetadata.Source
         {
-            get { return Resources.GetString("Source"); }
+            get { return null; }
         }
         
         string IMigrationMetadata.Target

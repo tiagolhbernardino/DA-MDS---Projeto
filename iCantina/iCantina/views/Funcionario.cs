@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.Entity.Infrastructure;
 using System.Data.Entity.Infrastructure.Interception;
 using System.Drawing;
 using System.Linq;
@@ -32,6 +33,8 @@ namespace iCantina.views
                 MessageBox.Show("Campos preenchimento obrigatório");
                 return;
             }
+
+            
         }
     } 
 }

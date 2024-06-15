@@ -35,6 +35,7 @@
             this.textBoxPassword = new System.Windows.Forms.TextBox();
             this.buttonLogIn = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.labelErro = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // labelUtilizador
@@ -100,6 +101,15 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // labelErro
+            // 
+            this.labelErro.AutoSize = true;
+            this.labelErro.Location = new System.Drawing.Point(348, 257);
+            this.labelErro.Name = "labelErro";
+            this.labelErro.Size = new System.Drawing.Size(44, 16);
+            this.labelErro.TabIndex = 5;
+            this.labelErro.Text = "label1";
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -108,6 +118,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(804, 450);
+            this.Controls.Add(this.labelErro);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.buttonLogIn);
             this.Controls.Add(this.textBoxPassword);
@@ -132,6 +143,7 @@
         private System.Windows.Forms.TextBox textBoxPassword;
         private System.Windows.Forms.Button buttonLogIn;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label labelErro;
     }
 }
 

@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,11 +16,37 @@ namespace iCantina.views
     public partial class FormularioPrincipal : Form
     {
         private Form formularioAtivo;
+        private bool isImagem1 = true;
 
         public FormularioPrincipal()
         {
             InitializeComponent();
         }
+        private void FormularioPrincipal_Load(object sender, EventArgs e)
+        {
+            pictureBoxMenu.Image = Image.FromFile("../../Assets/menu/Menu_White.png");
+        }
+
+
+        [DllImport("user32.dll")]
+        public static extern bool ReleaseCapture();
+
+        [DllImport("user32.dll")]
+        public static extern int SendMessage(IntPtr hWnd, int Msg, int wParam, int lParam);
+
+        public const int WM_NCLBUTTONDOWN = 0xA1;
+        public const int HTCAPTION = 0x2;
+        private void gunaConsole_MouseDown(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                ReleaseCapture();
+
+                SendMessage(this.Handle, WM_NCLBUTTONDOWN, HTCAPTION, 0);
+            }
+        }
+
+
         private void ButtonClose_Click(object sender, EventArgs e)
         {
             Close();
@@ -63,63 +90,89 @@ namespace iCantina.views
             novoFormulario.BringToFront();
             novoFormulario.Show();
         }
-        
+
         // Menu
-        private void ButtonMenu_Click(object sender, EventArgs e)
+        private void funcionButtonMenu()
         {
-            if (ButtonMenu.Checked == false)
+            if (buttonMenu.Checked == false)
             {
-                // Mudar de cor dos buttons menu
-                ButtonReservation.FillColor = Color.OrangeRed;
-                ButtonReservation.ForeColor = Color.White;
-                ButtonClient.FillColor = Color.OrangeRed;
-                ButtonClient.ForeColor = Color.White;
-                buttonEmployee.FillColor = Color.OrangeRed;
-                buttonEmployee.ForeColor = Color.White;
-
-                // Mudar de cor no button menu
-                ButtonMenu.FillColor = Color.White;
-                ButtonMenu.ForeColor = Color.Black;
+                if (isImagem1)
+                {
+                    // Mudar de cor dos buttons menu
+                    buttonReservation.FillColor = Color.OrangeRed;
+                    pictureBoxReservation.BackColor = Color.OrangeRed;
+                    buttonClient.FillColor = Color.OrangeRed;
+                    pictureBoxClient.BackColor = Color.OrangeRed;
+                    buttonEmployee.FillColor = Color.OrangeRed;
+                    pictureBoxEmployee.BackColor = Color.OrangeRed;
 
 
-                // divenir local dos buttons do submenu
-                buttonSubmenu1.Location = new System.Drawing.Point(0, 159);
-                buttonSubmenu2.Location = new System.Drawing.Point(0, 219);
-                buttonSubmenu3.Location = new System.Drawing.Point(0, 279);
-                buttonSubmenu4.Location = new System.Drawing.Point(0, 339);
+                    // Mudar de cor no button menu
+                    buttonMenu.FillColor = Color.White;
+                    pictureBoxMenu.BackColor = Color.White;
+
+                    pictureBoxMenu.Image = Image.FromFile("../../Assets/menu/Menu_Black.png");
+                    
+                    // divenir local dos buttons do submenu
+                    buttonSubmenu1.Location = new System.Drawing.Point(0, 159);
+                    buttonSubmenu2.Location = new System.Drawing.Point(0, 219);
+                    buttonSubmenu3.Location = new System.Drawing.Point(0, 279);
+                    buttonSubmenu4.Location = new System.Drawing.Point(0, 339);
 
 
-                // trocar o nome dos button do submenu
-                buttonSubmenu1.Text = "Pratos";
-                buttonSubmenu2.Text = "Extras";
-                buttonSubmenu3.Text = "Multa";
-                buttonSubmenu4.Text = "Fatura";
+                    // trocar o nome dos button do submenu
+                    buttonSubmenu1.Text = "Pratos";
+                    buttonSubmenu2.Text = "Extras";
+                    buttonSubmenu3.Text = "Multa";
+                    buttonSubmenu4.Text = "Fatura";
 
-                // tronar visivel o submenu
-                panelSubmenu.Visible = true;
-                buttonSubmenu1.Visible = true;
-                buttonSubmenu2.Visible = true;
-                buttonSubmenu3.Visible = true;
-                buttonSubmenu4.Visible = true;
+                    // tronar visivel o submenu
+                    panelSubmenu.Visible = true;
+                    buttonSubmenu1.Visible = true;
+                    buttonSubmenu2.Visible = true;
+                    buttonSubmenu3.Visible = true;
+                    buttonSubmenu4.Visible = true;
+                }
+                else
+                {
+                    buttonMenu.FillColor = Color.OrangeRed;
+                    pictureBoxMenu.BackColor = Color.OrangeRed;
+                    pictureBoxMenu.Image = Image.FromFile("../../Assets/menu/Menu_White.png");
+                    // tronar visivel o submenu
+                    panelSubmenu.Visible = false;
+                }
+
+                isImagem1 = !isImagem1;
+
+
+                
             }
+        }
+        private void pictureBoxMenu_Click(object sender, EventArgs e)
+        {
+            funcionButtonMenu();
+        }
+        private void buttonMenu_Click(object sender, EventArgs e)
+        {
+            funcionButtonMenu();
         }
 
         // Reservation
         private void ButtonReservation_Click(object sender, EventArgs e)
         {
-            if (ButtonReservation.Checked == false)
+            if (buttonReservation.Checked == false)
             {
                 // Mudar de cor dos buttons menu
-                ButtonMenu.FillColor = Color.OrangeRed;
-                ButtonMenu.ForeColor = Color.White;
-                ButtonClient.FillColor = Color.OrangeRed;
-                ButtonClient.ForeColor = Color.White;
+                buttonMenu.FillColor = Color.OrangeRed;
+                buttonMenu.ForeColor = Color.White;
+                buttonClient.FillColor = Color.OrangeRed;
+                buttonClient.ForeColor = Color.White;
                 buttonEmployee.FillColor = Color.OrangeRed;
                 buttonEmployee.ForeColor = Color.White;
 
                 // Mudar de cor no button menu
-                ButtonReservation.FillColor = Color.White;
-                ButtonReservation.ForeColor = Color.Black;
+                buttonReservation.FillColor = Color.White;
+                buttonReservation.ForeColor = Color.Black;
 
 
                 // divenir local dos buttons do submenu
@@ -145,17 +198,17 @@ namespace iCantina.views
         // Client
         private void ButtonClient_Click(object sender, EventArgs e)
         {
-            if (ButtonClient.Checked == false)
+            if (buttonClient.Checked == false)
             {
-                ButtonMenu.FillColor = Color.OrangeRed;
-                ButtonMenu.ForeColor = Color.White;
-                ButtonReservation.FillColor = Color.OrangeRed;
-                ButtonReservation.ForeColor = Color.White;
+                buttonMenu.FillColor = Color.OrangeRed;
+                buttonMenu.ForeColor = Color.White;
+                buttonReservation.FillColor = Color.OrangeRed;
+                buttonReservation.ForeColor = Color.White;
                 buttonEmployee.FillColor = Color.OrangeRed;
                 buttonEmployee.ForeColor = Color.White;
 
-                ButtonClient.FillColor = Color.White;
-                ButtonClient.ForeColor = Color.Black;
+                buttonClient.FillColor = Color.White;
+                buttonClient.ForeColor = Color.Black;
             }
 
             trocarFormulario(new Faturas());
@@ -164,17 +217,17 @@ namespace iCantina.views
         // Employee
         private void buttonEmployee_Click(object sender, EventArgs e)
         {
-            if (ButtonClient.Checked == false)
+            if (buttonClient.Checked == false)
             {
-                ButtonMenu.FillColor = Color.OrangeRed;
-                ButtonMenu.ForeColor = Color.White;
-                ButtonReservation.FillColor = Color.OrangeRed;
-                ButtonReservation.ForeColor = Color.White;
+                buttonMenu.FillColor = Color.OrangeRed;
+                buttonMenu.ForeColor = Color.White;
+                buttonReservation.FillColor = Color.OrangeRed;
+                buttonReservation.ForeColor = Color.White;
                 buttonEmployee.FillColor = Color.OrangeRed;
                 buttonEmployee.ForeColor = Color.White;
 
-                ButtonClient.FillColor = Color.White;
-                ButtonClient.ForeColor = Color.Black;
+                buttonClient.FillColor = Color.White;
+                buttonClient.ForeColor = Color.Black;
             }
 
             trocarFormulario(new Faturas());
@@ -281,5 +334,7 @@ namespace iCantina.views
                 trocarFormulario(new Faturas());
             }
         }
+
+        
     }
 }

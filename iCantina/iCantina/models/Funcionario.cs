@@ -10,9 +10,11 @@ namespace iCantina.models
     {
         // Parametros da Class
         public string Username { get; set; }
+        public string Password { get; set; }
 
-        
-        // Constructor
+
+
+        // Construtor padrão
         public Funcionario() 
         {
         }

@@ -9,7 +9,7 @@ namespace iCantina.models
     public class Estudante : Cliente
     {
         // Parametros da Class
-        public int numeroEstudante {  get; set; }
+        public int NumeroEstudante {  get; set; }
 
         // Constructor
         public Estudante()

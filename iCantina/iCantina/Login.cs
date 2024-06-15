@@ -1,4 +1,5 @@
-﻿using iCantina.views;
+﻿using iCantina.controller;
+using iCantina.views;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -7,7 +8,9 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web.SessionState;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 namespace iCantina
 {
@@ -60,14 +63,13 @@ namespace iCantina
             string Username = textBoxUsername.Text;
             string Password = textBoxPassword.Text;
 
-            if (Username == "admin" && Password == "admin")
+            if (string.IsNullOrEmpty(Username) || string.IsNullOrEmpty(Password))
             {
-                FormularioPrincipal principal = new FormularioPrincipal();
-
-                Hide();
-                principal.FormClosed += Closed_FormClosed;
-                principal.ShowDialog();
+                labelErro.Visible = true;
+                labelErro.Text = "Todos os campos são de preenchimento obrigatório";
+                return;
             }
+            
         }
 
 
