@@ -21,10 +21,12 @@ namespace iCantina.models
         // Class
         public Cliente Cliente { get; set; }
         public Menu Menu { get; set; }
+        public ICollection<object> ItemFaturas { get; internal set; }
 
         // Constructor
         public Fatura()
         {
+            faturas = new List<ItemFatura>();
         }
     }
 }

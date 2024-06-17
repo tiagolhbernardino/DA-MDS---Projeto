@@ -28,412 +28,277 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label11 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.labelCafe = new System.Windows.Forms.Label();
+            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            this.labelNameClient = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.labelError = new System.Windows.Forms.Label();
+            this.listBoxClient = new System.Windows.Forms.ListBox();
+            this.listBoxInvoice = new System.Windows.Forms.ListBox();
+            this.buttonPrint = new Guna.UI2.WinForms.Guna2Button();
+            this.buttonSearch = new Guna.UI2.WinForms.Guna2Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.labelSobremesa = new System.Windows.Forms.Label();
-            this.labelBebidas = new System.Windows.Forms.Label();
-            this.labelMenu = new System.Windows.Forms.Label();
-            this.labelExtras = new System.Windows.Forms.Label();
-            this.labelPrato = new System.Windows.Forms.Label();
-            this.labelSopa = new System.Windows.Forms.Label();
-            this.labelEmail = new System.Windows.Forms.Label();
-            this.textBoxEmail = new System.Windows.Forms.TextBox();
-            this.checkBoxProfessor = new System.Windows.Forms.CheckBox();
-            this.checkBoxAluno = new System.Windows.Forms.CheckBox();
-            this.buttonVoltar = new System.Windows.Forms.Button();
-            this.labelFaturasHora = new System.Windows.Forms.Label();
-            this.labelFaturasDia = new System.Windows.Forms.Label();
-            this.labelFaturasNumero = new System.Windows.Forms.Label();
-            this.labelFaturasNome = new System.Windows.Forms.Label();
-            this.monthCalendarFaturas = new System.Windows.Forms.MonthCalendar();
+            this.textBoxTeacher = new Guna.UI2.WinForms.Guna2TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.panel1.SuspendLayout();
+            this.textBoxStudent = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
+            this.monthCalendarInvoice = new System.Windows.Forms.MonthCalendar();
+            this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.guna2Panel2.SuspendLayout();
+            this.guna2Panel1.SuspendLayout();
+            this.guna2Panel4.SuspendLayout();
+            this.guna2Panel3.SuspendLayout();
             this.SuspendLayout();
             // 
-            // label11
+            // guna2Panel2
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(160, 612);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(60, 20);
-            this.label11.TabIndex = 39;
-            this.label11.Text = "label11";
-            this.label11.Visible = false;
+            this.guna2Panel2.Controls.Add(this.labelNameClient);
+            this.guna2Panel2.Controls.Add(this.label4);
+            this.guna2Panel2.Controls.Add(this.labelError);
+            this.guna2Panel2.Controls.Add(this.listBoxClient);
+            this.guna2Panel2.Controls.Add(this.listBoxInvoice);
+            this.guna2Panel2.Controls.Add(this.buttonPrint);
+            this.guna2Panel2.Controls.Add(this.buttonSearch);
+            this.guna2Panel2.Controls.Add(this.label2);
+            this.guna2Panel2.Controls.Add(this.textBoxTeacher);
+            this.guna2Panel2.Controls.Add(this.label1);
+            this.guna2Panel2.Controls.Add(this.textBoxStudent);
+            this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2Panel2.Location = new System.Drawing.Point(332, 0);
+            this.guna2Panel2.Name = "guna2Panel2";
+            this.guna2Panel2.Size = new System.Drawing.Size(693, 690);
+            this.guna2Panel2.TabIndex = 40;
             // 
-            // label10
+            // labelNameClient
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(160, 541);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(60, 20);
-            this.label10.TabIndex = 38;
-            this.label10.Text = "label10";
-            this.label10.Visible = false;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(160, 470);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(51, 20);
-            this.label6.TabIndex = 37;
-            this.label6.Text = "label6";
-            this.label6.Visible = false;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(160, 404);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(51, 20);
-            this.label5.TabIndex = 36;
-            this.label5.Text = "label5";
-            this.label5.Visible = false;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Controls.Add(this.label9);
-            this.panel1.Controls.Add(this.label8);
-            this.panel1.Controls.Add(this.label7);
-            this.panel1.Controls.Add(this.labelCafe);
-            this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.labelSobremesa);
-            this.panel1.Controls.Add(this.labelBebidas);
-            this.panel1.Controls.Add(this.labelMenu);
-            this.panel1.Controls.Add(this.labelExtras);
-            this.panel1.Controls.Add(this.labelPrato);
-            this.panel1.Controls.Add(this.labelSopa);
-            this.panel1.Location = new System.Drawing.Point(691, 70);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(382, 690);
-            this.panel1.TabIndex = 35;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(115, 499);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(51, 20);
-            this.label9.TabIndex = 26;
-            this.label9.Text = "label9";
-            this.label9.Visible = false;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(115, 412);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(51, 20);
-            this.label8.TabIndex = 25;
-            this.label8.Text = "label8";
-            this.label8.Visible = false;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(115, 339);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(51, 20);
-            this.label7.TabIndex = 24;
-            this.label7.Text = "label7";
-            this.label7.Visible = false;
-            // 
-            // labelCafe
-            // 
-            this.labelCafe.AutoSize = true;
-            this.labelCafe.Location = new System.Drawing.Point(47, 499);
-            this.labelCafe.Name = "labelCafe";
-            this.labelCafe.Size = new System.Drawing.Size(55, 20);
-            this.labelCafe.TabIndex = 23;
-            this.labelCafe.Text = " Cafe: ";
+            this.labelNameClient.AutoSize = true;
+            this.labelNameClient.Location = new System.Drawing.Point(92, 160);
+            this.labelNameClient.Name = "labelNameClient";
+            this.labelNameClient.Size = new System.Drawing.Size(107, 16);
+            this.labelNameClient.TabIndex = 10;
+            this.labelNameClient.Text = "Nome do Cliente";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(115, 261);
+            this.label4.Location = new System.Drawing.Point(39, 160);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(51, 20);
-            this.label4.TabIndex = 20;
-            this.label4.Text = "label4";
-            this.label4.Visible = false;
+            this.label4.Size = new System.Drawing.Size(47, 16);
+            this.label4.TabIndex = 9;
+            this.label4.Text = "Nome:";
             // 
-            // label3
+            // labelError
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(115, 179);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(51, 20);
-            this.label3.TabIndex = 19;
-            this.label3.Text = "label3";
-            this.label3.Visible = false;
+            this.labelError.AutoSize = true;
+            this.labelError.Location = new System.Drawing.Point(143, 121);
+            this.labelError.Name = "labelError";
+            this.labelError.Size = new System.Drawing.Size(107, 16);
+            this.labelError.TabIndex = 8;
+            this.labelError.Text = "Não encontrado!";
+            this.labelError.Visible = false;
+            // 
+            // listBoxClient
+            // 
+            this.listBoxClient.FormattingEnabled = true;
+            this.listBoxClient.ItemHeight = 16;
+            this.listBoxClient.Location = new System.Drawing.Point(42, 198);
+            this.listBoxClient.Name = "listBoxClient";
+            this.listBoxClient.Size = new System.Drawing.Size(83, 468);
+            this.listBoxClient.TabIndex = 7;
+            this.listBoxClient.SelectedIndexChanged += new System.EventHandler(this.listBoxClient_SelectedIndexChanged);
+            // 
+            // listBoxInvoice
+            // 
+            this.listBoxInvoice.FormattingEnabled = true;
+            this.listBoxInvoice.ItemHeight = 16;
+            this.listBoxInvoice.Location = new System.Drawing.Point(146, 197);
+            this.listBoxInvoice.Name = "listBoxInvoice";
+            this.listBoxInvoice.Size = new System.Drawing.Size(493, 468);
+            this.listBoxInvoice.TabIndex = 6;
+            // 
+            // buttonPrint
+            // 
+            this.buttonPrint.AutoRoundedCorners = true;
+            this.buttonPrint.BorderRadius = 18;
+            this.buttonPrint.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.buttonPrint.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.buttonPrint.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.buttonPrint.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.buttonPrint.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.buttonPrint.ForeColor = System.Drawing.Color.White;
+            this.buttonPrint.Location = new System.Drawing.Point(423, 121);
+            this.buttonPrint.Name = "buttonPrint";
+            this.buttonPrint.Size = new System.Drawing.Size(99, 39);
+            this.buttonPrint.TabIndex = 5;
+            this.buttonPrint.Text = "Imprimir";
+            // 
+            // buttonSearch
+            // 
+            this.buttonSearch.AutoRoundedCorners = true;
+            this.buttonSearch.BorderRadius = 18;
+            this.buttonSearch.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.buttonSearch.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.buttonSearch.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.buttonSearch.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.buttonSearch.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.buttonSearch.ForeColor = System.Drawing.Color.White;
+            this.buttonSearch.Location = new System.Drawing.Point(540, 121);
+            this.buttonSearch.Name = "buttonSearch";
+            this.buttonSearch.Size = new System.Drawing.Size(99, 39);
+            this.buttonSearch.TabIndex = 4;
+            this.buttonSearch.Text = "Procurar";
+            this.buttonSearch.Click += new System.EventHandler(this.buttonSearch_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(115, 92);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(38, 72);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(51, 20);
-            this.label2.TabIndex = 18;
-            this.label2.Text = "label2";
-            this.label2.Visible = false;
+            this.label2.Size = new System.Drawing.Size(87, 20);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "Professor:";
             // 
-            // labelSobremesa
+            // textBoxTeacher
             // 
-            this.labelSobremesa.AutoSize = true;
-            this.labelSobremesa.Location = new System.Drawing.Point(10, 412);
-            this.labelSobremesa.Name = "labelSobremesa";
-            this.labelSobremesa.Size = new System.Drawing.Size(99, 20);
-            this.labelSobremesa.TabIndex = 17;
-            this.labelSobremesa.Text = "Sobremesa: ";
-            // 
-            // labelBebidas
-            // 
-            this.labelBebidas.AutoSize = true;
-            this.labelBebidas.Location = new System.Drawing.Point(38, 339);
-            this.labelBebidas.Name = "labelBebidas";
-            this.labelBebidas.Size = new System.Drawing.Size(71, 20);
-            this.labelBebidas.TabIndex = 16;
-            this.labelBebidas.Text = "Bebidas:";
-            // 
-            // labelMenu
-            // 
-            this.labelMenu.AutoSize = true;
-            this.labelMenu.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelMenu.Location = new System.Drawing.Point(143, 14);
-            this.labelMenu.Name = "labelMenu";
-            this.labelMenu.Size = new System.Drawing.Size(96, 32);
-            this.labelMenu.TabIndex = 12;
-            this.labelMenu.Text = "MENU";
-            // 
-            // labelExtras
-            // 
-            this.labelExtras.AutoSize = true;
-            this.labelExtras.Location = new System.Drawing.Point(47, 261);
-            this.labelExtras.Name = "labelExtras";
-            this.labelExtras.Size = new System.Drawing.Size(62, 20);
-            this.labelExtras.TabIndex = 15;
-            this.labelExtras.Text = "Extras: ";
-            // 
-            // labelPrato
-            // 
-            this.labelPrato.AutoSize = true;
-            this.labelPrato.Location = new System.Drawing.Point(54, 179);
-            this.labelPrato.Name = "labelPrato";
-            this.labelPrato.Size = new System.Drawing.Size(55, 20);
-            this.labelPrato.TabIndex = 13;
-            this.labelPrato.Text = "Prato: ";
-            // 
-            // labelSopa
-            // 
-            this.labelSopa.AutoSize = true;
-            this.labelSopa.Location = new System.Drawing.Point(54, 92);
-            this.labelSopa.Name = "labelSopa";
-            this.labelSopa.Size = new System.Drawing.Size(55, 20);
-            this.labelSopa.TabIndex = 14;
-            this.labelSopa.Text = "Sopa: ";
-            // 
-            // labelEmail
-            // 
-            this.labelEmail.AutoSize = true;
-            this.labelEmail.Location = new System.Drawing.Point(382, 211);
-            this.labelEmail.Name = "labelEmail";
-            this.labelEmail.Size = new System.Drawing.Size(112, 20);
-            this.labelEmail.TabIndex = 34;
-            this.labelEmail.Text = "Insira o Email: ";
-            this.labelEmail.Visible = false;
-            // 
-            // textBoxEmail
-            // 
-            this.textBoxEmail.Location = new System.Drawing.Point(382, 235);
-            this.textBoxEmail.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBoxEmail.Name = "textBoxEmail";
-            this.textBoxEmail.Size = new System.Drawing.Size(164, 26);
-            this.textBoxEmail.TabIndex = 33;
-            this.textBoxEmail.Visible = false;
-            // 
-            // checkBoxProfessor
-            // 
-            this.checkBoxProfessor.AutoSize = true;
-            this.checkBoxProfessor.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBoxProfessor.Location = new System.Drawing.Point(529, 115);
-            this.checkBoxProfessor.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.checkBoxProfessor.Name = "checkBoxProfessor";
-            this.checkBoxProfessor.Size = new System.Drawing.Size(143, 33);
-            this.checkBoxProfessor.TabIndex = 32;
-            this.checkBoxProfessor.Text = "Professor";
-            this.checkBoxProfessor.UseVisualStyleBackColor = true;
-            this.checkBoxProfessor.CheckedChanged += new System.EventHandler(this.checkBoxProfessor_CheckedChanged);
-            // 
-            // checkBoxAluno
-            // 
-            this.checkBoxAluno.AutoSize = true;
-            this.checkBoxAluno.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBoxAluno.Location = new System.Drawing.Point(386, 115);
-            this.checkBoxAluno.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.checkBoxAluno.Name = "checkBoxAluno";
-            this.checkBoxAluno.Size = new System.Drawing.Size(100, 33);
-            this.checkBoxAluno.TabIndex = 31;
-            this.checkBoxAluno.Text = "Aluno";
-            this.checkBoxAluno.UseVisualStyleBackColor = true;
-            this.checkBoxAluno.CheckedChanged += new System.EventHandler(this.checkBoxAluno_CheckedChanged);
-            // 
-            // buttonVoltar
-            // 
-            this.buttonVoltar.Location = new System.Drawing.Point(498, 712);
-            this.buttonVoltar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.buttonVoltar.Name = "buttonVoltar";
-            this.buttonVoltar.Size = new System.Drawing.Size(142, 48);
-            this.buttonVoltar.TabIndex = 30;
-            this.buttonVoltar.Text = "Voltar";
-            this.buttonVoltar.UseVisualStyleBackColor = true;
-            // 
-            // labelFaturasHora
-            // 
-            this.labelFaturasHora.AutoSize = true;
-            this.labelFaturasHora.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelFaturasHora.Location = new System.Drawing.Point(42, 606);
-            this.labelFaturasHora.Name = "labelFaturasHora";
-            this.labelFaturasHora.Size = new System.Drawing.Size(77, 29);
-            this.labelFaturasHora.TabIndex = 28;
-            this.labelFaturasHora.Text = "Hora: ";
-            // 
-            // labelFaturasDia
-            // 
-            this.labelFaturasDia.AutoSize = true;
-            this.labelFaturasDia.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelFaturasDia.Location = new System.Drawing.Point(42, 534);
-            this.labelFaturasDia.Name = "labelFaturasDia";
-            this.labelFaturasDia.Size = new System.Drawing.Size(61, 29);
-            this.labelFaturasDia.TabIndex = 27;
-            this.labelFaturasDia.Text = "Dia: ";
-            // 
-            // labelFaturasNumero
-            // 
-            this.labelFaturasNumero.AutoSize = true;
-            this.labelFaturasNumero.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelFaturasNumero.Location = new System.Drawing.Point(42, 461);
-            this.labelFaturasNumero.Name = "labelFaturasNumero";
-            this.labelFaturasNumero.Size = new System.Drawing.Size(112, 29);
-            this.labelFaturasNumero.TabIndex = 26;
-            this.labelFaturasNumero.Text = "Numero: ";
-            // 
-            // labelFaturasNome
-            // 
-            this.labelFaturasNome.AutoSize = true;
-            this.labelFaturasNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelFaturasNome.Location = new System.Drawing.Point(42, 395);
-            this.labelFaturasNome.Name = "labelFaturasNome";
-            this.labelFaturasNome.Size = new System.Drawing.Size(91, 29);
-            this.labelFaturasNome.TabIndex = 25;
-            this.labelFaturasNome.Text = "Nome: ";
-            // 
-            // monthCalendarFaturas
-            // 
-            this.monthCalendarFaturas.Location = new System.Drawing.Point(36, 70);
-            this.monthCalendarFaturas.Name = "monthCalendarFaturas";
-            this.monthCalendarFaturas.TabIndex = 24;
+            this.textBoxTeacher.AutoRoundedCorners = true;
+            this.textBoxTeacher.BorderRadius = 14;
+            this.textBoxTeacher.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.textBoxTeacher.DefaultText = "";
+            this.textBoxTeacher.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.textBoxTeacher.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.textBoxTeacher.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.textBoxTeacher.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.textBoxTeacher.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.textBoxTeacher.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.textBoxTeacher.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.textBoxTeacher.Location = new System.Drawing.Point(146, 67);
+            this.textBoxTeacher.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBoxTeacher.Name = "textBoxTeacher";
+            this.textBoxTeacher.PasswordChar = '\0';
+            this.textBoxTeacher.PlaceholderText = "";
+            this.textBoxTeacher.SelectedText = "";
+            this.textBoxTeacher.Size = new System.Drawing.Size(493, 30);
+            this.textBoxTeacher.TabIndex = 2;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(42, 681);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(69, 34);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(77, 29);
-            this.label1.TabIndex = 29;
-            this.label1.Text = "Hora: ";
+            this.label1.Size = new System.Drawing.Size(56, 20);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Aluno:";
             // 
-            // label12
+            // textBoxStudent
             // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(160, 688);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(60, 20);
-            this.label12.TabIndex = 40;
-            this.label12.Text = "label12";
-            this.label12.Visible = false;
+            this.textBoxStudent.AutoRoundedCorners = true;
+            this.textBoxStudent.BorderRadius = 14;
+            this.textBoxStudent.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.textBoxStudent.DefaultText = "";
+            this.textBoxStudent.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.textBoxStudent.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.textBoxStudent.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.textBoxStudent.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.textBoxStudent.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.textBoxStudent.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.textBoxStudent.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.textBoxStudent.Location = new System.Drawing.Point(146, 29);
+            this.textBoxStudent.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBoxStudent.Name = "textBoxStudent";
+            this.textBoxStudent.PasswordChar = '\0';
+            this.textBoxStudent.PlaceholderText = "";
+            this.textBoxStudent.SelectedText = "";
+            this.textBoxStudent.Size = new System.Drawing.Size(493, 30);
+            this.textBoxStudent.TabIndex = 0;
+            // 
+            // guna2Panel1
+            // 
+            this.guna2Panel1.Controls.Add(this.guna2Panel4);
+            this.guna2Panel1.Controls.Add(this.guna2Panel3);
+            this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
+            this.guna2Panel1.Name = "guna2Panel1";
+            this.guna2Panel1.Size = new System.Drawing.Size(332, 690);
+            this.guna2Panel1.TabIndex = 42;
+            // 
+            // guna2Panel4
+            // 
+            this.guna2Panel4.Controls.Add(this.monthCalendarInvoice);
+            this.guna2Panel4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.guna2Panel4.Location = new System.Drawing.Point(0, 0);
+            this.guna2Panel4.Name = "guna2Panel4";
+            this.guna2Panel4.Size = new System.Drawing.Size(332, 272);
+            this.guna2Panel4.TabIndex = 1;
+            // 
+            // monthCalendarInvoice
+            // 
+            this.monthCalendarInvoice.Location = new System.Drawing.Point(12, 34);
+            this.monthCalendarInvoice.Name = "monthCalendarInvoice";
+            this.monthCalendarInvoice.TabIndex = 0;
+            this.monthCalendarInvoice.DateSelected += new System.Windows.Forms.DateRangeEventHandler(this.monthCalendarInvoice_DateSelected);
+            // 
+            // guna2Panel3
+            // 
+            this.guna2Panel3.Controls.Add(this.listBox1);
+            this.guna2Panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.guna2Panel3.Location = new System.Drawing.Point(0, 270);
+            this.guna2Panel3.Name = "guna2Panel3";
+            this.guna2Panel3.Size = new System.Drawing.Size(332, 420);
+            this.guna2Panel3.TabIndex = 0;
+            // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 16;
+            this.listBox1.Location = new System.Drawing.Point(12, 8);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(302, 388);
+            this.listBox1.TabIndex = 0;
+            this.listBox1.Click += new System.EventHandler(this.listBox1_Click);
             // 
             // Faturas
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
-            this.ClientSize = new System.Drawing.Size(1108, 861);
+            this.ClientSize = new System.Drawing.Size(1025, 690);
             this.ControlBox = false;
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.labelEmail);
-            this.Controls.Add(this.textBoxEmail);
-            this.Controls.Add(this.checkBoxProfessor);
-            this.Controls.Add(this.checkBoxAluno);
-            this.Controls.Add(this.buttonVoltar);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.labelFaturasHora);
-            this.Controls.Add(this.labelFaturasDia);
-            this.Controls.Add(this.labelFaturasNumero);
-            this.Controls.Add(this.labelFaturasNome);
-            this.Controls.Add(this.monthCalendarFaturas);
+            this.Controls.Add(this.guna2Panel2);
+            this.Controls.Add(this.guna2Panel1);
             this.Cursor = System.Windows.Forms.Cursors.Default;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Faturas";
             this.Text = "Faturas";
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.guna2Panel2.ResumeLayout(false);
+            this.guna2Panel2.PerformLayout();
+            this.guna2Panel1.ResumeLayout(false);
+            this.guna2Panel4.ResumeLayout(false);
+            this.guna2Panel3.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label labelCafe;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel4;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
+        private System.Windows.Forms.MonthCalendar monthCalendarInvoice;
+        private System.Windows.Forms.ListBox listBox1;
+        private Guna.UI2.WinForms.Guna2TextBox textBoxStudent;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label labelSobremesa;
-        private System.Windows.Forms.Label labelBebidas;
-        private System.Windows.Forms.Label labelMenu;
-        private System.Windows.Forms.Label labelExtras;
-        private System.Windows.Forms.Label labelPrato;
-        private System.Windows.Forms.Label labelSopa;
-        private System.Windows.Forms.Label labelEmail;
-        private System.Windows.Forms.TextBox textBoxEmail;
-        private System.Windows.Forms.CheckBox checkBoxProfessor;
-        private System.Windows.Forms.CheckBox checkBoxAluno;
-        private System.Windows.Forms.Button buttonVoltar;
-        private System.Windows.Forms.Label labelFaturasHora;
-        private System.Windows.Forms.Label labelFaturasDia;
-        private System.Windows.Forms.Label labelFaturasNumero;
-        private System.Windows.Forms.Label labelFaturasNome;
-        private System.Windows.Forms.MonthCalendar monthCalendarFaturas;
+        private Guna.UI2.WinForms.Guna2TextBox textBoxTeacher;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.ListBox listBoxClient;
+        private System.Windows.Forms.ListBox listBoxInvoice;
+        private Guna.UI2.WinForms.Guna2Button buttonPrint;
+        private Guna.UI2.WinForms.Guna2Button buttonSearch;
+        private System.Windows.Forms.Label labelNameClient;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label labelError;
     }
 }

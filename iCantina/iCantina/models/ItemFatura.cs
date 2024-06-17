@@ -15,6 +15,9 @@ namespace iCantina.models
         public string Descricao { get; set; }
         public float Preco {  get; set; }
 
+        public int FaturaId { get; set; }
+        public Fatura Fatura { get; set; }
+
         // Constructor
         public ItemFatura()
         {

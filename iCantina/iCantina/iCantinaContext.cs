@@ -11,7 +11,7 @@ namespace iCantina
 {
     internal class iCantinaContext : DbContext
     {
-        public DbSet<Utilizador> Utilizadors { get; set; }
+        public DbSet<Utilizador> utilizadors { get; set; }
 
 
         public DbSet<Reserva> Reservas { get; set; }

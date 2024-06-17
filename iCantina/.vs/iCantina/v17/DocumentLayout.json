@@ -3,28 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\tiago\\Documents\\IPL\\2 - Semestre\\Projetos\\DA - Desenvolvimento de Aplica\u00E7\u00F5es\\v3\\DA-MDS---Projeto\\iCantina\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1B96BD12-8D19-4822-AEE3-F3BBC7E2B1B9}|iCantina\\iCantina.csproj|c:\\users\\tiago\\documents\\ipl\\2 - semestre\\projetos\\da - desenvolvimento de aplica\u00E7\u00F5es\\v3\\da-mds---projeto\\icantina\\icantina\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B96BD12-8D19-4822-AEE3-F3BBC7E2B1B9}|iCantina\\iCantina.csproj|solutionrelative:icantina\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1B96BD12-8D19-4822-AEE3-F3BBC7E2B1B9}|iCantina\\iCantina.csproj|c:\\users\\tiago\\documents\\ipl\\2 - semestre\\projetos\\da - desenvolvimento de aplica\u00E7\u00F5es\\v3\\da-mds---projeto\\icantina\\icantina\\views\\faturas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B96BD12-8D19-4822-AEE3-F3BBC7E2B1B9}|iCantina\\iCantina.csproj|solutionrelative:icantina\\views\\faturas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B96BD12-8D19-4822-AEE3-F3BBC7E2B1B9}|iCantina\\iCantina.csproj|c:\\users\\tiago\\documents\\ipl\\2 - semestre\\projetos\\da - desenvolvimento de aplica\u00E7\u00F5es\\v3\\da-mds---projeto\\icantina\\icantina\\migrations\\202406151932580_icantina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B96BD12-8D19-4822-AEE3-F3BBC7E2B1B9}|iCantina\\iCantina.csproj|solutionrelative:icantina\\migrations\\202406151932580_icantina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B96BD12-8D19-4822-AEE3-F3BBC7E2B1B9}|iCantina\\iCantina.csproj|c:\\users\\tiago\\documents\\ipl\\2 - semestre\\projetos\\da - desenvolvimento de aplica\u00E7\u00F5es\\v3\\da-mds---projeto\\icantina\\icantina\\icantinacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B96BD12-8D19-4822-AEE3-F3BBC7E2B1B9}|iCantina\\iCantina.csproj|solutionrelative:icantina\\icantinacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B96BD12-8D19-4822-AEE3-F3BBC7E2B1B9}|iCantina\\iCantina.csproj|C:\\Users\\tiago\\Documents\\IPL\\2 - Semestre\\Projetos\\DA - Desenvolvimento de Aplica\u00E7\u00F5es\\v3\\DA-MDS---Projeto\\iCantina\\icantina\\models\\utilizador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B96BD12-8D19-4822-AEE3-F3BBC7E2B1B9}|iCantina\\iCantina.csproj|solutionrelative:icantina\\models\\utilizador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B96BD12-8D19-4822-AEE3-F3BBC7E2B1B9}|iCantina\\iCantina.csproj|C:\\Users\\tiago\\Documents\\IPL\\2 - Semestre\\Projetos\\DA - Desenvolvimento de Aplica\u00E7\u00F5es\\v3\\DA-MDS---Projeto\\iCantina\\icantina\\models\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B96BD12-8D19-4822-AEE3-F3BBC7E2B1B9}|iCantina\\iCantina.csproj|solutionrelative:icantina\\models\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B96BD12-8D19-4822-AEE3-F3BBC7E2B1B9}|iCantina\\iCantina.csproj|C:\\Users\\tiago\\Documents\\IPL\\2 - Semestre\\Projetos\\DA - Desenvolvimento de Aplica\u00E7\u00F5es\\v3\\DA-MDS---Projeto\\iCantina\\icantina\\models\\estudante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B96BD12-8D19-4822-AEE3-F3BBC7E2B1B9}|iCantina\\iCantina.csproj|solutionrelative:icantina\\models\\estudante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1B96BD12-8D19-4822-AEE3-F3BBC7E2B1B9}|iCantina\\iCantina.csproj|c:\\users\\tiago\\documents\\ipl\\2 - semestre\\projetos\\da - desenvolvimento de aplica\u00E7\u00F5es\\v3\\da-mds---projeto\\icantina\\icantina\\views\\faturas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1B96BD12-8D19-4822-AEE3-F3BBC7E2B1B9}|iCantina\\iCantina.csproj|solutionrelative:icantina\\views\\faturas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,85 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "202406151932580_iCantina.cs",
-              "DocumentMoniker": "C:\\Users\\tiago\\Documents\\IPL\\2 - Semestre\\Projetos\\DA - Desenvolvimento de Aplica\u00E7\u00F5es\\v3\\DA-MDS---Projeto\\iCantina\\iCantina\\Migrations\\202406151932580_iCantina.cs",
-              "RelativeDocumentMoniker": "iCantina\\Migrations\\202406151932580_iCantina.cs",
-              "ToolTip": "C:\\Users\\tiago\\Documents\\IPL\\2 - Semestre\\Projetos\\DA - Desenvolvimento de Aplica\u00E7\u00F5es\\v3\\DA-MDS---Projeto\\iCantina\\iCantina\\Migrations\\202406151932580_iCantina.cs",
-              "RelativeToolTip": "iCantina\\Migrations\\202406151932580_iCantina.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAQAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T19:33:14.846Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Configuration.cs",
-              "DocumentMoniker": "C:\\Users\\tiago\\Documents\\IPL\\2 - Semestre\\Projetos\\DA - Desenvolvimento de Aplica\u00E7\u00F5es\\v3\\DA-MDS---Projeto\\iCantina\\iCantina\\Migrations\\Configuration.cs",
-              "RelativeDocumentMoniker": "iCantina\\Migrations\\Configuration.cs",
-              "ToolTip": "C:\\Users\\tiago\\Documents\\IPL\\2 - Semestre\\Projetos\\DA - Desenvolvimento de Aplica\u00E7\u00F5es\\v3\\DA-MDS---Projeto\\iCantina\\iCantina\\Migrations\\Configuration.cs",
-              "RelativeToolTip": "iCantina\\Migrations\\Configuration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAJAAAA",
+              "Title": "Faturas.cs",
+              "DocumentMoniker": "C:\\Users\\tiago\\Documents\\IPL\\2 - Semestre\\Projetos\\DA - Desenvolvimento de Aplica\u00E7\u00F5es\\v3\\DA-MDS---Projeto\\iCantina\\iCantina\\views\\Faturas.cs",
+              "RelativeDocumentMoniker": "iCantina\\views\\Faturas.cs",
+              "ToolTip": "C:\\Users\\tiago\\Documents\\IPL\\2 - Semestre\\Projetos\\DA - Desenvolvimento de Aplica\u00E7\u00F5es\\v3\\DA-MDS---Projeto\\iCantina\\iCantina\\views\\Faturas.cs",
+              "RelativeToolTip": "iCantina\\views\\Faturas.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAvwEcAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T19:27:05.526Z",
+              "WhenOpened": "2024-06-16T22:43:06.08Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Funcionario.cs",
-              "DocumentMoniker": "C:\\Users\\tiago\\Documents\\IPL\\2 - Semestre\\Projetos\\DA - Desenvolvimento de Aplica\u00E7\u00F5es\\v3\\DA-MDS---Projeto\\iCantina\\iCantina\\models\\Funcionario.cs",
-              "RelativeDocumentMoniker": "iCantina\\models\\Funcionario.cs",
-              "ToolTip": "C:\\Users\\tiago\\Documents\\IPL\\2 - Semestre\\Projetos\\DA - Desenvolvimento de Aplica\u00E7\u00F5es\\v3\\DA-MDS---Projeto\\iCantina\\iCantina\\models\\Funcionario.cs",
-              "RelativeToolTip": "iCantina\\models\\Funcionario.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "Faturas.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tiago\\Documents\\IPL\\2 - Semestre\\Projetos\\DA - Desenvolvimento de Aplica\u00E7\u00F5es\\v3\\DA-MDS---Projeto\\iCantina\\iCantina\\views\\Faturas.cs",
+              "RelativeDocumentMoniker": "iCantina\\views\\Faturas.cs",
+              "ToolTip": "C:\\Users\\tiago\\Documents\\IPL\\2 - Semestre\\Projetos\\DA - Desenvolvimento de Aplica\u00E7\u00F5es\\v3\\DA-MDS---Projeto\\iCantina\\iCantina\\views\\Faturas.cs [Design]",
+              "RelativeToolTip": "iCantina\\views\\Faturas.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T19:18:32.538Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Estudante.cs",
-              "DocumentMoniker": "C:\\Users\\tiago\\Documents\\IPL\\2 - Semestre\\Projetos\\DA - Desenvolvimento de Aplica\u00E7\u00F5es\\v3\\DA-MDS---Projeto\\iCantina\\iCantina\\models\\Estudante.cs",
-              "RelativeDocumentMoniker": "iCantina\\models\\Estudante.cs",
-              "ToolTip": "C:\\Users\\tiago\\Documents\\IPL\\2 - Semestre\\Projetos\\DA - Desenvolvimento de Aplica\u00E7\u00F5es\\v3\\DA-MDS---Projeto\\iCantina\\iCantina\\models\\Estudante.cs",
-              "RelativeToolTip": "iCantina\\models\\Estudante.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T19:18:28.213Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Utilizador.cs",
-              "DocumentMoniker": "C:\\Users\\tiago\\Documents\\IPL\\2 - Semestre\\Projetos\\DA - Desenvolvimento de Aplica\u00E7\u00F5es\\v3\\DA-MDS---Projeto\\iCantina\\iCantina\\models\\Utilizador.cs",
-              "RelativeDocumentMoniker": "iCantina\\models\\Utilizador.cs",
-              "ToolTip": "C:\\Users\\tiago\\Documents\\IPL\\2 - Semestre\\Projetos\\DA - Desenvolvimento de Aplica\u00E7\u00F5es\\v3\\DA-MDS---Projeto\\iCantina\\iCantina\\models\\Utilizador.cs",
-              "RelativeToolTip": "iCantina\\models\\Utilizador.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T19:18:23.446Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "iCantinaContext.cs",
-              "DocumentMoniker": "C:\\Users\\tiago\\Documents\\IPL\\2 - Semestre\\Projetos\\DA - Desenvolvimento de Aplica\u00E7\u00F5es\\v3\\DA-MDS---Projeto\\iCantina\\iCantina\\iCantinaContext.cs",
-              "RelativeDocumentMoniker": "iCantina\\iCantinaContext.cs",
-              "ToolTip": "C:\\Users\\tiago\\Documents\\IPL\\2 - Semestre\\Projetos\\DA - Desenvolvimento de Aplica\u00E7\u00F5es\\v3\\DA-MDS---Projeto\\iCantina\\iCantina\\iCantinaContext.cs",
-              "RelativeToolTip": "iCantina\\iCantinaContext.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T19:12:38.263Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-16T22:42:44.342Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

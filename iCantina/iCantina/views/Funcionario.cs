@@ -33,8 +33,17 @@ namespace iCantina.views
                 MessageBox.Show("Campos preenchimento obrigatório");
                 return;
             }
+            using (var db = new iCantinaContext())
+            {
+                var novoFuncionario = new Funcionario()
+                {
+                    Name = name,
+                    /*Nif = nif,
+                    Username = username,*/
+                };
+            }
 
-            
+
         }
     } 
 }

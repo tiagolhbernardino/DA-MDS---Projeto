@@ -41,6 +41,7 @@
             this.buttonReservation = new Guna.UI2.WinForms.Guna2Button();
             this.buttonMenu = new Guna.UI2.WinForms.Guna2Button();
             this.gunaConsole = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2CircleButton3 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2CircleButton2 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.panelContainer = new System.Windows.Forms.Panel();
@@ -49,7 +50,6 @@
             this.buttonSubmenu4 = new Guna.UI2.WinForms.Guna2Button();
             this.buttonSubmenu2 = new Guna.UI2.WinForms.Guna2Button();
             this.buttonSubmenu1 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2CircleButton3 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.panelMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxEmployeeLogged)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxEmployee)).BeginInit();
@@ -109,6 +109,7 @@
             this.pictureBoxEmployee.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxEmployee.TabIndex = 10;
             this.pictureBoxEmployee.TabStop = false;
+            this.pictureBoxEmployee.Click += new System.EventHandler(this.pictureBoxEmployee_Click);
             // 
             // pictureBoxClient
             // 
@@ -123,6 +124,7 @@
             this.pictureBoxClient.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxClient.TabIndex = 9;
             this.pictureBoxClient.TabStop = false;
+            this.pictureBoxClient.Click += new System.EventHandler(this.pictureBoxClient_Click);
             // 
             // pictureBoxReservation
             // 
@@ -137,6 +139,7 @@
             this.pictureBoxReservation.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxReservation.TabIndex = 8;
             this.pictureBoxReservation.TabStop = false;
+            this.pictureBoxReservation.Click += new System.EventHandler(this.pictureBoxReservation_Click);
             // 
             // pictureBoxMenu
             // 
@@ -184,7 +187,7 @@
             this.pictureBoxSettings.TabIndex = 5;
             this.pictureBoxSettings.TabStop = false;
             // 
-            // ButtonClient
+            // buttonClient
             // 
             this.buttonClient.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.buttonClient.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -196,12 +199,12 @@
             this.buttonClient.ForeColor = System.Drawing.Color.White;
             this.buttonClient.Location = new System.Drawing.Point(0, 361);
             this.buttonClient.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.buttonClient.Name = "ButtonClient";
+            this.buttonClient.Name = "buttonClient";
             this.buttonClient.Size = new System.Drawing.Size(55, 46);
             this.buttonClient.TabIndex = 3;
             this.buttonClient.Click += new System.EventHandler(this.ButtonClient_Click);
             // 
-            // ButtonReservation
+            // buttonReservation
             // 
             this.buttonReservation.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.buttonReservation.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -213,12 +216,12 @@
             this.buttonReservation.ForeColor = System.Drawing.Color.White;
             this.buttonReservation.Location = new System.Drawing.Point(0, 251);
             this.buttonReservation.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.buttonReservation.Name = "ButtonReservation";
+            this.buttonReservation.Name = "buttonReservation";
             this.buttonReservation.Size = new System.Drawing.Size(55, 46);
             this.buttonReservation.TabIndex = 1;
             this.buttonReservation.Click += new System.EventHandler(this.ButtonReservation_Click);
             // 
-            // ButtonMenu
+            // buttonMenu
             // 
             this.buttonMenu.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.buttonMenu.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -230,7 +233,7 @@
             this.buttonMenu.ForeColor = System.Drawing.Color.White;
             this.buttonMenu.Location = new System.Drawing.Point(0, 201);
             this.buttonMenu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.buttonMenu.Name = "ButtonMenu";
+            this.buttonMenu.Name = "buttonMenu";
             this.buttonMenu.Size = new System.Drawing.Size(55, 46);
             this.buttonMenu.TabIndex = 0;
             this.buttonMenu.Click += new System.EventHandler(this.buttonMenu_Click);
@@ -249,6 +252,24 @@
             this.gunaConsole.Size = new System.Drawing.Size(1080, 30);
             this.gunaConsole.TabIndex = 10;
             this.gunaConsole.MouseDown += new System.Windows.Forms.MouseEventHandler(this.gunaConsole_MouseDown);
+            // 
+            // guna2CircleButton3
+            // 
+            this.guna2CircleButton3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2CircleButton3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2CircleButton3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2CircleButton3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2CircleButton3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2CircleButton3.FillColor = System.Drawing.Color.Yellow;
+            this.guna2CircleButton3.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2CircleButton3.ForeColor = System.Drawing.Color.White;
+            this.guna2CircleButton3.Location = new System.Drawing.Point(998, 5);
+            this.guna2CircleButton3.Name = "guna2CircleButton3";
+            this.guna2CircleButton3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CircleButton3.Size = new System.Drawing.Size(22, 20);
+            this.guna2CircleButton3.TabIndex = 4;
+            this.guna2CircleButton3.Text = "guna2CircleButton3";
+            this.guna2CircleButton3.Click += new System.EventHandler(this.ButtonMinimize_Click);
             // 
             // guna2CircleButton2
             // 
@@ -390,24 +411,6 @@
             this.buttonSubmenu1.Text = "MENU";
             this.buttonSubmenu1.Visible = false;
             this.buttonSubmenu1.Click += new System.EventHandler(this.buttonSubmenu1_Click);
-            // 
-            // guna2CircleButton3
-            // 
-            this.guna2CircleButton3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2CircleButton3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2CircleButton3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2CircleButton3.FillColor = System.Drawing.Color.Yellow;
-            this.guna2CircleButton3.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2CircleButton3.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton3.Location = new System.Drawing.Point(998, 5);
-            this.guna2CircleButton3.Name = "guna2CircleButton3";
-            this.guna2CircleButton3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton3.Size = new System.Drawing.Size(22, 20);
-            this.guna2CircleButton3.TabIndex = 4;
-            this.guna2CircleButton3.Text = "guna2CircleButton3";
-            this.guna2CircleButton3.Click += new System.EventHandler(this.ButtonMinimize_Click);
             // 
             // FormularioPrincipal
             // 
