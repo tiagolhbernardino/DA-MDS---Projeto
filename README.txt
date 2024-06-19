@@ -8,7 +8,7 @@ O iCantina é um sistema de gestão desenvolvido para otimizar as operações di
 
 
 
-## 🚀 Instalações: 
+## 🚀 A instalar: 
 
 1) Visual Studio 2022 ou superior
 2) .NET Framework 4.8 ou superior
@@ -23,7 +23,7 @@ O iCantina é um sistema de gestão desenvolvido para otimizar as operações di
 
 
 ## 🚀 Executar a Aplicação:
-ds
+
 1) Depois da configuração à base de dados executar a aplicação a partir do Visual Studio.
 2) Para o primeiro "login" deve ser utilizado as credenciais username: admin/ password: admin (e só depois será possivel criar novas contas)
 
